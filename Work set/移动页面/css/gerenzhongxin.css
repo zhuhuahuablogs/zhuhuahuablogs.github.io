@@ -1,0 +1,235 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+body {
+  font-family: "微软雅黑";
+}
+a {
+  text-decoration: none;
+  font-size: 0.55rem;
+  color: #585858;
+}
+header {
+  height: 2.15rem;
+  background: #fcfcfc;
+  position: relative;
+  border-bottom: 0.025rem solid #d4d4d8;
+}
+header a {
+  width: 1.4rem;
+  height: 0.75rem;
+  background: url(../images/gerenzx/jt.png) 0 0.1rem no-repeat;
+  background-size: .4rem;
+  position: absolute;
+  padding-left: .7rem;
+  left: .45rem;
+  top: .8rem;
+}
+header h1 {
+  font-size: 0.8rem;
+  font-weight: normal;
+  text-align: center;
+  line-height: 2.15rem;
+}
+.column {
+  height: 6.9rem;
+}
+.column .top {
+  height: 0.725rem;
+  background: #ececf4;
+}
+.column .center {
+  height: 5.5rem;
+  background: url(../images/gerenzx/ms.png);
+  background-size: 100%;
+  position: relative;
+}
+.column .center .tx {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+  background: url(../images/gerenzx/tx.png);
+  background-size: 100%;
+  position: absolute;
+  top: .5rem;
+  left: 1.3rem;
+}
+.column .center p {
+  font-size: 0.65rem;
+  color: #fcfcfc;
+  position: absolute;
+}
+.column .center p.p1 {
+  top: 2rem;
+  left: 7rem;
+}
+.column .center p.p2 {
+  top: 3rem;
+  left: 7rem;
+}
+.column .bottom {
+  height: 0.65rem;
+  background: #ececf4;
+}
+.nav {
+  font-size: 0.7rem;
+}
+.nav ul {
+  overflow: hidden;
+  background: #fcfcfc;
+}
+.nav ul li {
+  float: left;
+  width: 5.25rem;
+  height: 1.8rem;
+  text-align: center;
+  line-height: 1.8rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.nav ul li a {
+  color: #000;
+}
+.nav ul li span {
+  width: 1px;
+  height: 1.35rem;
+  background: url(../images/gerenzx/li.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 4.6rem;
+  top: .24rem;
+}
+.nav ul li.i1 {
+  background: url(../images/gerenzx/dingdan.png) no-repeat 1rem 0.45rem;
+  background-size: 1rem;
+}
+.nav ul li.i2 {
+  background: url(../images/gerenzx/shoucang.png) no-repeat 0.8rem 0.45rem;
+  background-size: 1rem;
+}
+.nav ul li.i3 {
+  background: url(../images/gerenzx/tuijian.png) no-repeat 0.8rem 0.35rem;
+  background-size: 1rem;
+}
+.nav .bottom {
+  height: 0.575rem;
+  background: #ececf4;
+}
+.xiugai {
+  height: 3.275rem;
+  background: #fcfcfc;
+  overflow: hidden;
+  position: relative;
+}
+.xiugai p {
+  margin-left: 1rem;
+  line-height: 1.4rem;
+  float: left;
+}
+.xiugai p i {
+  width: 0.35rem;
+  height: 0.6rem;
+  background: url(../images/gerenzx/jty.png);
+  background-size: 100%;
+  position: absolute;
+}
+.xiugai p i.i1 {
+  right: 1rem;
+  top: .6rem;
+}
+.xiugai p i.i2 {
+  right: 1rem;
+  top: 2.2rem;
+}
+.xiugai span {
+  width: 96%;
+  height: 1px;
+  background: #ececf4;
+  display: inline-block;
+  float: right;
+}
+.hui {
+  height: 0.95rem;
+  background: #ececf4;
+}
+.tuisong {
+  height: 1.7rem;
+  background: #fcfcfc;
+  position: relative;
+}
+.tuisong p {
+  margin-left: 1rem;
+  line-height: 1.4rem;
+}
+.tuisong p i {
+  width: 1.975rem;
+  height: 1.1rem;
+  background: url(../images/gerenzx/ts.png);
+  background-size: 100%;
+  position: absolute;
+  right: 1rem;
+  top: .35rem;
+}
+.hui2 {
+  height: 0.725rem;
+}
+.last {
+  height: 6.575rem;
+}
+.last p {
+  height: 1.625rem;
+}
+.last i.i3 {
+  top: 3.9rem;
+  right: 1rem;
+}
+.last i.i4 {
+  top: 5.5rem;
+  right: 1rem;
+}
+.hui3 {
+  height: 5rem;
+  background: #ececf4;
+  border-bottom: 2px #d8d8dc solid;
+}
+footer {
+  height: 2.5rem;
+  background: #f8f8f8;
+}
+footer ul {
+  overflow: hidden;
+}
+footer ul li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+footer ul li i {
+  width: 1.075rem;
+  height: 1.1rem;
+  display: block;
+  margin-left: 1.5rem;
+  margin-bottom: -0.3rem;
+  margin-top: .4rem;
+}
+footer ul li i.i1 {
+  background: url(../images/gerenzx/sy.png);
+  background-size: 100%;
+}
+footer ul li i.i2 {
+  background: url(../images/gerenzx/sj.png);
+  background-size: 100%;
+}
+footer ul li i.i3 {
+  background: url(../images/gerenzx/gwc.png);
+  background-size: 100%;
+}
+footer ul li i.i4 {
+  background: url(../images/gerenzx/grzx.png);
+  background-size: 100%;
+}

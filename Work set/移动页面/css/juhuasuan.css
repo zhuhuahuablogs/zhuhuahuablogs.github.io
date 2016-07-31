@@ -1,0 +1,359 @@
+@charset "tuf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+body {
+  font-family: "黑体";
+}
+a {
+  text-decoration: none;
+  font-size: .65rem;
+  color: #999;
+}
+header {
+  width: 16rem;
+  height: 2.5rem;
+  background: #f4f4f4;
+  position: relative;
+}
+header a {
+  width: 3.05rem;
+  height: 1.45rem;
+  background: url(../images/juhuasuan/fh.png);
+  background-size: 100%;
+  position: absolute;
+  left: .6rem;
+  top: .55rem;
+}
+header h1 {
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: #d51938;
+  text-align: center;
+  line-height: 2.5rem;
+}
+.swiper-container {
+  width: 16rem;
+  height: 8rem;
+}
+.swiper-container .banner {
+  width: 16rem;
+  height: 6.675rem;
+}
+.swiper-container .banner img {
+  width: 16rem;
+  height: 6.675rem;
+  display: block;
+}
+.swiper-container .swiper-pagination {
+  margin-bottom: -0.25rem;
+}
+.nav {
+  width: 16rem;
+  overflow: hidden;
+}
+.nav li {
+  float: left;
+  text-align: center;
+  margin: .5rem 1rem;
+  position: relative;
+}
+.nav li .on {
+  width: 0.25rem;
+  height: 0.25rem;
+  display: inline-block;
+  background: url(../images/juhuasuan/dian.png);
+  background-size: 100%;
+  position: absolute;
+  left: 0rem;
+  top: 2.55rem;
+}
+.nav li i {
+  width: 2rem;
+  height: 2rem;
+  display: block;
+}
+.nav li i.i1 {
+  background: url(../images/juhuasuan/sp.png);
+  background-size: 100%;
+}
+.nav li i.i2 {
+  background: url(../images/juhuasuan/sh.png);
+  background-size: 100%;
+}
+.nav li i.i3 {
+  background: url(../images/juhuasuan/pp.png);
+  background-size: 100%;
+}
+.nav li i.i4 {
+  background: url(../images/juhuasuan/jbp.png);
+  background-size: 100%;
+}
+.nav li i.i5 {
+  background: url(../images/juhuasuan/jmp.png);
+  background-size: 100%;
+}
+.nav li i.i6 {
+  background: url(../images/juhuasuan/jjz.png);
+  background-size: 100%;
+}
+.nav li i.i7 {
+  background: url(../images/juhuasuan/jt.png);
+  background-size: 100%;
+}
+.nav li i.i8 {
+  background: url(../images/juhuasuan/khd.png);
+  background-size: 100%;
+}
+.remai {
+  width: 16rem;
+  padding: .5rem;
+  box-sizing: border-box;
+}
+.remai .top {
+  height: 1.825rem;
+  line-height: 1.825rem;
+  border-bottom: .1rem solid #dcdcdc;
+  overflow: hidden;
+}
+.remai .top .left {
+  float: left;
+  width: 0.1rem;
+  height: 0.75rem;
+  margin: .55rem .4rem 0 0;
+  background: url(../images/juhuasuan/s.png);
+  background-size: 100%;
+}
+.remai .top h3 {
+  float: left;
+  font-size: 0.65rem;
+  color: #333;
+}
+.remai .top .right {
+  float: right;
+  font-size: 0.65rem;
+  color: #333;
+}
+.remai .sp {
+  margin-top: .75rem;
+}
+.remai .sp li {
+  overflow: hidden;
+  font-size: 0.6rem;
+  width: 15rem;
+  height: 3rem;
+  background: #f4f4f4;
+  margin-bottom: .5rem;
+}
+.remai .sp li div {
+  float: left;
+}
+.remai .sp li .red {
+  background: #e00202;
+}
+.remai .sp li .red2 {
+  background: #ff4800;
+}
+.remai .sp li .red3 {
+  background: #ff7300;
+}
+.remai .sp li .red4 {
+  background: #ff9d00;
+}
+.remai .sp li .red5 {
+  background: #ffa800;
+}
+.remai .sp li .red6 {
+  background: #ffb400;
+}
+.remai .sp li .red7 {
+  background: #ffba00;
+}
+.remai .sp li .red8 {
+  background: #fcd000;
+}
+.remai .sp li .red9 {
+  background: #ffd719;
+}
+.remai .sp li .red10 {
+  background: #ffe152;
+}
+.remai .sp li .left {
+  width: 1.5rem;
+  height: 3rem;
+  font-size: 0.9rem;
+  color: #fff;
+  text-align: center;
+  line-height: 3rem;
+}
+.remai .sp li .shop {
+  width: 4.5rem;
+  height: 3rem;
+}
+.remai .sp li .shop img {
+  width: 4.5rem;
+  height: 3rem;
+}
+.remai .sp li .ys {
+  margin-top: .75rem;
+  margin-left: .6rem;
+  font-size: 0.6rem;
+  color: #999;
+}
+.remai .sp li .ys p {
+  line-height: .75rem;
+}
+.remai .sp li .ys .zi {
+  color: #c7223d;
+}
+.remai .sp li .ys .hua {
+  text-decoration: line-through;
+}
+.remai .sp li .jq {
+  float: right;
+  margin-right: .5rem;
+  margin-top: 1.1rem;
+}
+.remai .sp li .jq b {
+  color: #d51938;
+}
+.remai .sp li .right {
+  float: right;
+  margin-right: .5rem;
+  margin-top: 1.2rem;
+  width: 0.3rem;
+  height: 0.5rem;
+  background: url(../images/juhuasuan/jty.png);
+  background-size: 100%;
+}
+.remai .gql {
+  height: 2rem;
+  background: #f5f5f5;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 0.65rem;
+  color: #666;
+  margin-bottom: .5rem;
+}
+.remai div.g2 {
+  margin: .5rem 0 .76rem 0;
+  position: relative;
+}
+.remai div.g2 a {
+  position: absolute;
+  background: url(../images/juhuasuan/jty.png);
+  background-size: 100%;
+  width: 0.3rem;
+  height: 0.5rem;
+  right: .5rem;
+  top: .8rem;
+}
+.remai .spt {
+  overflow: hidden;
+}
+.remai .spt div {
+  float: left;
+  width: 3.75rem;
+  height: 8.8rem;
+}
+.remai .spt div.s1 {
+  background: url(../images/juhuasuan/spt.png);
+  background-size: 100%;
+}
+.remai .spt div.s2 {
+  background: url(../images/juhuasuan/sht.png);
+  background-size: 100%;
+}
+.remai .spt div.s3 {
+  background: url(../images/juhuasuan/ppt.png);
+  background-size: 100%;
+}
+.remai .spt .ul {
+  float: left;
+  overflow: hidden;
+  font-size: 0.65rem;
+  color: #999;
+  width: 11.25rem;
+}
+.remai .spt .ul li {
+  width: 3.68rem;
+  height: 2.15rem;
+  float: left;
+  text-align: center;
+  line-height: 2.3rem;
+  border: .025rem solid #eee;
+}
+.remai .spt .ul li.hz {
+  color: #d51942;
+}
+.remai .spt .ul li.l {
+  border-left: none;
+}
+.remai .spt .ul li.t {
+  border-top: none;
+}
+.remai .bb {
+  width: 15rem;
+  height: 4rem;
+  margin-top: .25rem;
+  margin-bottom: .45rem;
+  overflow: hidden;
+}
+.remai .bb a {
+  float: left;
+  width: 5rem;
+  height: 4rem;
+}
+.remai .bb a.a1 {
+  background: url(../images/juhuasuan/iso.png);
+  background-size: 100%;
+}
+.remai .bb a.a2 {
+  background: url(../images/juhuasuan/az.png);
+  background-size: 100%;
+}
+.remai .bb a.a3 {
+  background: url(../images/juhuasuan/yj.png);
+  background-size: 100%;
+}
+.lasts {
+  width: 16rem;
+  height: 2.2rem;
+  background: #f8f8f8;
+  line-height: 2.2rem;
+  position: relative;
+}
+.lasts a {
+  margin-left: .75rem;
+  color: #333;
+}
+.lasts a.top {
+  position: absolute;
+  right: .7rem;
+  top: .2rem;
+  background: url(../images/juhuasuan/top.png) center right no-repeat;
+  background-size: .475rem;
+  padding-right: 1rem;
+}
+footer {
+  width: 16rem;
+  height: 4rem;
+  text-align: center;
+  background: #eee;
+  padding-top: 1rem;
+}
+footer p {
+  line-height: 1rem;
+}
+footer p a {
+  color: #333;
+  margin-left: .45rem;
+}
+footer p span {
+  font-size: 0.5rem;
+  color: #9f9f9f;
+}

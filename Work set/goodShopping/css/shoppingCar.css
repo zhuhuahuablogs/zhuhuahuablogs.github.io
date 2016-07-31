@@ -1,0 +1,94 @@
+/**{margin:0;padding:0;}
+a{text-decoration: none;}*/
+a:hover{color:#B81B22;}
+
+.top .top_content{width:1050px;}
+.container{
+    width:1000px;margin:20px auto 0;border-top:2px solid red;
+}
+.c_item{width:100%;height:110px;border-bottom:1px solid red;}
+.c_item>div{float:left;height:70%;padding:15px 5px 10px;}
+.c_item>.c_item_ck{width:30px;text-align: center;}
+.c_item>.c_item_goods{width:550px;}
+.c_item>.c_item_goods>img{width:80px;}
+.c_item>.c_item_goods>img,.c_item>.c_item_goods>div{float:left;}
+.c_item>.c_item_goods>.c_item_msg{width:300px;margin-left: 10px;font-size:14px;}
+.c_item>.c_item_goods>.c_item_col{width:150px;margin-left: 10px;color:grey;font-size:14px;}
+.c_item>.c_item_price{width:70px;}
+.c_item>.c_item_count{width:100px;}
+.c_item>.c_item_count a{color:black;text-align: center;width:15px;height:20px;border:1px solid #cacbcb;background-color: white;}
+.c_item>.c_item_sumCount{width:80px;}
+.c_item>.c_item_oper{width:100px;}
+
+
+
+.shoppingCarLogo{width:1000px;height:110px;margin:10px auto;}
+
+.shoppingCarLogo .ss{width:1000px;height:110px;background:url(../images/logo.png) no-repeat;position: relative;}
+.shoppingCarLogo .ss a{display:block;position:absolute;left:100px;width:100px;font-size: 25px;line-height: 80px;}
+
+.shoppingCarLogo .ss .ss_r{width:350px;height:50px;float:right;margin-top:40px;}
+.shoppingCarLogo .ss .ss_r .ssk{width:680px;height:30px;}
+.shoppingCarLogo .ss .ss_r .ssk .ssk_l{float:left;width:300px;height:27px;border:2px solid #B71A21;outline: none;color:gray;text-indent: 5px;}
+.shoppingCarLogo .ss .ss_r .ssk .ssk_r{float:left;width:50px;height:31px;border:0;background-color:#B81B22;margin-left:-2px;font-size:15px;color:white;cursor:pointer;outline: none;}
+.cue{width:960px;background: #fffdee;color:#f70;border:1px solid #edd28b;margin:0 auto;padding:10px 20px;font-size: 14px;}
+.cue span{display:inline-block;width:16px;height:16px;background: url(../images/icon16.png) no-repeat;}
+.cue a{display:inline-block;padding:3px 6px;background: #e74649;border:0;color:white;border-radius: 2px;}
+.cue a:hover{background: #e70000;}
+.allGoods{width:1000px;margin:10px auto;font-size:17px;color:red;}
+.cart-thead{width:1000px;height:40px;margin:0 auto;background: #f3f3f3;}
+.cart-thead div{float:left;font-size:13px;line-height:40px;text-align: center}
+.cart-thead .t-checkbox{margin-left:10px;width:50px;}
+.cart-thead .t-goods{width:540px;}
+.cart-thead .t-price{width:70px;}
+.cart-thead .t-quantity{width:110px;}
+.cart-thead .t-sum{width:100px;}
+.cart-thead .t-action{width:40px;}
+
+.doSth,.careBox{width:1000px;height:50px;margin: 15px auto 0;}
+.doSth{height:50px;vertical-align: middle;line-height: 50px;border:1px solid #f0f0f0;font-size: 14px;}
+.doSth .all{margin-left:10px;}
+.doSth .del,.doSth .addCare{display: inline-block;margin-left:30px;}
+.doSth .toolbar-right{width:500px;height:52px;float:right;}
+.doSth .toolbar-right div{float:right;}
+.doSth .toolbar-right .amount-sum{width:120px;height:52px;color:#999;}
+.doSth .toolbar-right .amount-sum span{color:red;font-weight: bold;}
+.doSth .toolbar-right .price-sum{margin-right:20px;height:52px;color:#999;}
+.doSth .toolbar-right .price-sum span{display:inline-block;color:red;font-weight:bold;font-size: 18px;line-height: 47px;}
+.doSth .toolbar-right .btn-area{width:96px;height:52px;position: relative;}
+.doSth .toolbar-right .btn-area  a{display: block;width:96px;height:52px;position:absolute;right:-1px;top:-1px;background:rgb(235,50,50);color:white;text-align: center;font-size: 18px;font-weight:bold;}
+.del,.addCare{cursor: pointer;}
+.c-tabs{position: relative;width:1000px;height:300px;margin:20px auto;}
+.c-tabs .tab-nav{height:27px;}
+.c-tabs .tab-nav ul{display: block;position: relative;}
+.c-tabs .tab-nav ul li{height:24px;float:left;font-size: 12px;border:1px solid #ddd;cursor: pointer;margin-right:5px;position:relative;top:2px;line-height: 24px;}
+.c-tabs .tab-nav ul li p{padding:2px 22px 8px;line-height: 18px;}
+.c-tabs .tab-nav ul li:nth-child(1){border-bottom: 0;color:red;height:27px;top:0;}
+.c-tabs .tab-nav ul li:nth-child(1) p{font-weight: bold;padding:5px 22px;background: white;}
+
+
+.c-tabs .youBox,.c-tabs .myCare{width:100%;height:230px;border:1px solid #cacbcb;padding:10px 0;}
+.c-tabs .youBox .g-list{height:228px;padding:0 54px;position: relative;}
+.c-tabs .youBox .g-list .g-list-cont{width:875px;height:228px;overflow: hidden;position: relative;}
+.c-tabs .youBox .g-list .g-list-cont ul{width:1750px;height:228px;position: absolute;}
+.c-tabs .youBox .g-list .g-list-cont ul li{float:left;width:145px;padding:0 15px;}
+.c-tabs .youBox .g-list .g-list-cont ul li img{display: block;}
+.c-tabs .youBox .g-list .g-list-cont ul li a{font-size: 12px;line-height: 20px;display: block;height:40px;overflow: hidden;}
+.c-tabs .youBox .g-list .g-list-cont ul li p{font-weight: bold;font-size: 13px;line-height: 30px;}
+.c-tabs .youBox .g-list .g-list-cont ul li button{cursor: pointer;}
+.c-tabs .youBox .g-list .g-list-left,.c-tabs .youBox .g-list .g-list-right{
+    display: block;width:18px;
+    height:32px;
+    background:url(../images/cart-icons-new.png) no-repeat;
+    position: absolute;top:50%;
+    margin-top:-16px;
+}
+.c-tabs .youBox .g-list .g-list-left{left:0;background-position:-36px -49px;margin-left:30px;}
+.c-tabs .youBox .g-list .g-list-right{right:0;background-position:-54px -49px;margin-right:30px;}
+
+.c-tabs .myCare{display: none;}
+
+
+
+
+

@@ -1,0 +1,253 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "黑体";
+}
+li {
+  list-style: none;
+}
+header {
+  height: 3rem;
+  background: #344a61;
+  display: -webkit-box;
+}
+header h1 {
+  -webkit-box-flex: 1;
+  color: #f8ffff;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.2rem;
+}
+header .left {
+  width: 3rem;
+  height: 3rem;
+  background: url(../images/nav.png) center no-repeat;
+  border-right: 2px solid #4a6077;
+  background-size: 1rem;
+}
+header .right {
+  width: 3rem;
+  height: 3rem;
+  background: url(../images/email.png) center no-repeat;
+  border-left: 2px solid #4a6077;
+  background-size: 1rem;
+}
+.bk {
+  height: 0.1rem;
+  border-top: .05rem solid #f3fdff;
+  border-bottom: .05rem solid #f9f9f7;
+}
+.conter {
+  height: 71.5rem;
+  width: 14rem;
+  margin: 0 auto;
+}
+.conter .top {
+  height: 2rem;
+  line-height: 2rem;
+  font-size: .8rem;
+  color: #c5c5c5;
+  border-bottom: .1rem solid #e5e5e5;
+  margin-bottom: 1rem;
+}
+.conter .shop {
+  width: 14rem;
+  height: 9.3rem;
+  margin-bottom: 1.25rem;
+}
+.conter .shop img {
+  width: 14rem;
+  height: 9.3rem;
+  display: block;
+}
+.conter h3.h3 {
+  margin-bottom: 1rem;
+  font-size: 0.55rem;
+  color: #1f1f1f;
+  margin-bottom: 0.75rem;
+}
+.conter .new {
+  line-height: 1rem;
+  font-size: 0.45rem;
+  color: #505050;
+  margin-bottom: 1rem;
+}
+.conter .shop2 {
+  width: 14rem;
+  height: 11rem;
+  border-top: .05rem solid #e7e7e7;
+  border-bottom: .05rem solid #e7e7e7;
+  overflow: hidden;
+  margin-bottom: 1.2rem;
+}
+.conter .shop2 .left {
+  width: 4.95rem;
+  height: 11rem;
+  float: left;
+}
+.conter .shop2 .left div {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 1rem;
+}
+.conter .shop2 .left div img {
+  width: 4rem;
+  height: 4rem;
+  display: block;
+}
+.conter .shop2 .right {
+  float: right;
+  width: 9rem;
+  padding-top: 1rem;
+}
+.conter .shop2 .right h4 {
+  font-size: 0.55rem;
+  color: #1f1f1f;
+  margin: .1rem 0;
+}
+.conter .shop2 .right p {
+  line-height: 1rem;
+  font-size: 0.45rem;
+  color: #505050;
+}
+.conter .shop3 {
+  width: 14rem;
+  margin-bottom: 1.5rem;
+}
+.conter .shop3 h3 {
+  font-size: 0.55rem;
+  color: #1f1f1f;
+}
+.conter .shop3 p {
+  line-height: 1rem;
+  font-size: 0.45rem;
+  color: #505050;
+}
+.conter .shop3 section {
+  overflow: hidden;
+}
+.conter .shop3 div {
+  float: left;
+  margin: 1rem 1rem 0 0;
+  width: 4rem;
+  height: 4rem;
+}
+.conter .shop3 div img {
+  width: 4rem;
+  height: 4rem;
+  display: block;
+}
+.conter .shop3 div.xiao {
+  width: 3.95rem;
+  height: 4rem;
+}
+.conter .shop3 div.xiao img {
+  width: 3.95rem;
+  height: 4rem;
+  display: block;
+}
+.conter .shop3 div.no {
+  margin-right: 0;
+}
+.conter .message {
+  width: 14rem;
+  height: 11.5rem;
+  margin-bottom: 1rem;
+  border-top: .05rem solid #e7e7e7;
+  border-bottom: .05rem solid #e7e7e7;
+}
+.conter .message h3 {
+  margin-bottom: 0.65rem;
+  font-size: 0.55rem;
+  color: #1f1f1f;
+  margin-top: 1rem;
+}
+.conter .message p {
+  line-height: 1rem;
+  font-size: 0.45rem;
+  color: #505050;
+  margin-bottom: 1rem;
+}
+.conter .message .m2 {
+  width: 14rem;
+  height: 11.5rem;
+  box-sizing: border-box;
+  background: url(../images/message.png) no-repeat;
+  background-size: 4rem;
+  padding-left: 5rem;
+}
+.conter .message .m2 p {
+  line-height: 1rem;
+  font-size: 0.45rem;
+  color: #505050;
+}
+.conter .message .m2 p.b {
+  font-weight: bold;
+  color: #585858;
+  text-align: right;
+}
+.conter .bottom1 {
+  width: 14rem;
+  height: 7.75rem;
+}
+.conter .bottom1 h3 {
+  margin-bottom: 0.65rem;
+  font-size: 0.55rem;
+  color: #1f1f1f;
+  text-align: center;
+}
+.conter .bottom1 p {
+  line-height: 1rem;
+  font-size: 0.45rem;
+  color: #505050;
+  text-align: center;
+}
+.conter .bottom1 .tu {
+  width: 9.7rem;
+  height: 2.5rem;
+  margin: 1rem auto;
+}
+.conter .bottom1 .tu img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: .4rem;
+}
+.conter .bottom2 {
+  width: 14rem;
+  height: 4rem;
+  border-top: .05rem solid #e7e7e7;
+  padding-top: 1.1rem;
+  box-sizing: border-box;
+}
+.conter .bottom2 p {
+  line-height: 1rem;
+  font-size: 0.4rem;
+  color: #9e9e9e;
+  text-align: center;
+  font-weight: bold;
+}
+footer {
+  height: 3rem;
+  background: #000;
+}
+footer .fot {
+  height: 1rem;
+  padding-top: .5rem;
+}
+footer .fot img {
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-right: .5rem;
+}
+footer .fot img.f1 {
+  margin-left: .5rem;
+}
+footer p {
+  text-align: center;
+  font-size: 0.35rem;
+  color: #7a7a7a;
+  margin-top: .3rem;
+}

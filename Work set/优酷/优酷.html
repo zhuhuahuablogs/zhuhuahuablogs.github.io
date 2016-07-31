@@ -1,0 +1,2429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>优酷</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/style_youku.css">
+	<script src="js/jquery-1.7.2.js"></script>
+	<script src="js/youku.js"></script>
+</head>
+<body>
+  <!--侧栏导航-->
+<div class="sidebar pab">
+	<ul>
+		<li>
+			<i><img src="img/nav.png" /></i>
+			<a href="javascript:;">用户</a>
+		</li>
+		<li>
+			<i><img src="img/nav1.png" /></i>
+			<a href="javascript:;">收藏</a>
+		</li>
+		<li>
+			<i><img src="img/nav2.png" /></i>
+			<a href="javascript:;">记录</a>
+		</li>
+		<li>
+			<i><img src="img/nav3.png" /></i>
+			<a href="javascript:;">订阅</a>
+		</li>
+		<li>
+			<i><img src="img/nav4.png" /></i>
+			<a href="javascript:;">通知</a>
+		</li>
+		<li>
+			<i><img src="img/nav5.png" /></i>
+			<a href="javascript:;">会员</a>
+		</li>
+		<li>
+			<i><img src="img/nav6.png" /></i>
+			<a href="javascript:;">购物车</a>
+		</li>
+	</ul>
+	<div class="qiangpiao pab">
+		<a href="javascript:;">
+			<img src="img/nav7.png" />
+		</a>
+	</div>
+	<b class="pab guanbi"></b>
+</div>	
+ <!--侧栏导航-->
+ <!--头部开始-->
+<div class="header w clearfix">
+	<div class="header_left fl clearfix">
+		<h1 class="fl"></h1>
+		<a href="javascript:;" class="fl souye">首页</a>
+		<a href="javascript:;" class="fl pindao pre" id="pindao">
+				<span>频道</span>
+				<div class="pindao_more pab">
+					
+				</div>  
+		</a>
+	</div>
+	<div class="header_cen clearfix fl">
+		<input type="text" value=""  class="fl" />
+		<a href="javascript:;" class="fl sousuo"><i></i>搜索</a>
+	</div>
+	<div class="header_right fr">
+		<a href="javascript:;" class="shangchuan clearfix pre">
+			<span class="fl ">上传<span><i class="fr"></i>
+			<div class="shangchuan_more pab">
+				
+			</div>
+		</a>
+		<a href="javascript:;">会员</a>
+		<a href="javascript:;">APP下载</a>
+		<a href="javascript:;" class="denglu">登录 | 注册</a>
+	</div>
+</div>
+ <!--头部结束-->
+ <!--导航开始-->
+<div class="nav w">
+	<div class="nav_top">
+		<a href="javascript:;">首页</a>
+		<a href="javascript:;">电视剧</a>
+		<a href="javascript:;">电影</a>
+		<a href="javascript:;">综艺</a>
+		<a href="javascript:;">音乐</a>
+		<a href="javascript:;">动漫</a>
+		<a href="javascript:;">全部</a>
+		<a href="javascript:;" class="nav_i nav_i_">资讯·科技</a>
+		<a href="javascript:;" class="nav_i nav_i_">娱乐·搞笑</a>
+		<a href="javascript:;" class="nav_i nav_i_">旅游·亲子</a>
+		<a href="javascript:;" class="nav_i_">排行</a>
+		<div class="con"></div>
+		<ul class="nav_more">
+			<li class="nav_more_i">
+				<a href="javascript:;">电影频道</a>
+				<a href="javascript:;">新收录</a>
+				<a href="javascript:;">热映</a>
+				<a href="javascript:;">微电影</a>
+				<a href="javascript:;">华语</a>
+				<a href="javascript:;">好莱坞</a>
+				<a href="javascript:;">韩国</a>
+				<a href="javascript:;">女性</a>
+				<a href="javascript:;">会员</a>
+				<a href="javascript:;">全部电影</a>
+			</li>
+			<li >
+				<a href="javascript:;">电视剧频道</a>
+				<a href="javascript:;">新上映</a>
+				<a href="javascript:;">大陆剧</a>
+				<a href="javascript:;">TVB</a>
+				<a href="javascript:;">韩剧</a>
+				<a href="javascript:;">美剧</a>
+				<a href="javascript:;">英剧</a>
+				<a href="javascript:;">台剧</a>
+				<a href="javascript:;">日剧</a>
+				<a href="javascript:;">电影排行榜</a>
+			</li>
+			<li>
+				<a href="javascript:;">电影频道</a>
+				<a href="javascript:;">新收录</a>
+				<a href="javascript:;">热映</a>
+				<a href="javascript:;">微电影</a>
+				<a href="javascript:;">华语</a>
+				<a href="javascript:;">好莱坞</a>
+				<a href="javascript:;">韩国</a>
+				<a href="javascript:;">女性</a>
+				<a href="javascript:;">会员</a>
+				<a href="javascript:;">全部电影</a>
+			</li>
+			<li>
+				<a href="javascript:;">综艺频道</a>
+				<a href="javascript:;">更细最多</a>
+				<a href="javascript:;">韩剧</a>
+				<a href="javascript:;">微电影</a>
+				<a href="javascript:;">自制</a>
+				<a href="javascript:;">好莱坞</a>
+				<a href="javascript:;">韩国</a>
+				<a href="javascript:;">女性</a>
+				<a href="javascript:;">会员</a>
+				<a href="javascript:;">全部电影</a>
+			</li>
+			<li>
+				<a href="javascript:;">电影频道</a>
+				<a href="javascript:;">新收录</a>
+				<a href="javascript:;">热映</a>
+				<a href="javascript:;">微电影</a>
+				<a href="javascript:;">华语</a>
+				<a href="javascript:;">好莱坞</a>
+				<a href="javascript:;">韩国</a>
+				<a href="javascript:;">女性</a>
+				<a href="javascript:;">会员</a>
+				<a href="javascript:;">全部电影</a>
+			</li>
+			<li>
+				<a href="javascript:;">电影频道</a>
+				<a href="javascript:;">新收录</a>
+				<a href="javascript:;">热映</a>
+				<a href="javascript:;">微电影</a>
+				<a href="javascript:;">华语</a>
+				<a href="javascript:;">好莱坞</a>
+				<a href="javascript:;">韩国</a>
+				<a href="javascript:;">女性</a>
+				<a href="javascript:;">会员</a>
+				<a href="javascript:;">全部电影</a>
+			</li>
+			<li>
+				<a href="javascript:;">电影频道</a>
+				<a href="javascript:;">新收录</a>
+				<a href="javascript:;">热映</a>
+				<a href="javascript:;">微电影</a>
+				<a href="javascript:;">华语</a>
+				<a href="javascript:;">好莱坞</a>
+				<a href="javascript:;">韩国</a>
+				<a href="javascript:;">女性</a>
+				<a href="javascript:;">会员</a>
+				<a href="javascript:;">全部电影</a>
+			</li>
+			<li>
+				<a href="javascript:;">电影频道</a>
+				<a href="javascript:;">新收录</a>
+				<a href="javascript:;">热映</a>
+				<a href="javascript:;">微电影</a>
+				<a href="javascript:;">华语</a>
+				<a href="javascript:;">好莱坞</a>
+				<a href="javascript:;">韩国</a>
+				<a href="javascript:;">女性</a>
+				<a href="javascript:;">会员</a>
+				<a href="javascript:;">全部电影</a>
+			</li>
+			<li>
+				<a href="javascript:;">电影频道</a>
+				<a href="javascript:;">新收录</a>
+				<a href="javascript:;">热映</a>
+				<a href="javascript:;">微电影</a>
+				<a href="javascript:;">华语</a>
+				<a href="javascript:;">好莱坞</a>
+				<a href="javascript:;">韩国</a>
+				<a href="javascript:;">女性</a>
+				<a href="javascript:;">会员</a>
+				<a href="javascript:;">全部电影</a>
+			</li>
+			<li>
+				<a href="javascript:;">电影频道</a>
+				<a href="javascript:;">新收录</a>
+				<a href="javascript:;">热映</a>
+				<a href="javascript:;">微电影</a>
+				<a href="javascript:;">华语</a>
+				<a href="javascript:;">好莱坞</a>
+				<a href="javascript:;">韩国</a>
+				<a href="javascript:;">女性</a>
+				<a href="javascript:;">会员</a>
+				<a href="javascript:;">全部电影</a>
+			</li>
+			<li>
+				<a href="javascript:;">电影频道</a>
+				<a href="javascript:;">新收录</a>
+				<a href="javascript:;">热映</a>
+				<a href="javascript:;">微电影</a>
+				<a href="javascript:;">华语</a>
+				<a href="javascript:;">好莱坞</a>
+				<a href="javascript:;">韩国</a>
+				<a href="javascript:;">女性</a>
+				<a href="javascript:;">会员</a>
+				<a href="javascript:;">全部电影</a>
+			</li>
+		</ul>
+	</div>
+	<div class="nav_bottom pre">
+		<ul class="list">
+			<li class="on"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<img src="img/dianying.png"  class="con_img" />
+		<img src="img/dianying1.png" />
+		<img src="img/dianying2.png" />
+		<img src="img/dianying3.png" />
+		<img src="img/dianying4.png" />
+	</div>
+	<ul class="nav_fooder clearfix">
+		<li>
+			<h2><span>按热播排行</span></h2>
+			<a href="javascript:;">今日最多</a>
+			<a href="javascript:;">本周最多</a>
+			<a href="javascript:;">历史最多</a><br />
+			<a href="javascript:;">最新上映</a>
+			<a href="javascript:;">用户好评</a>
+			<a href="javascript:;">会员专享</a>
+		</li>
+		<li>
+			<h2><span>按国家/地区</span></h2>
+			<a href="javascript:;">香港</a>
+			<a href="javascript:;">大陆</a>
+			<a href="javascript:;">美国</a>
+			<a href="javascript:;">韩国</a>
+			<a href="javascript:;" class="nav_bot_i">台湾</a><br />
+			<a href="javascript:;">法国</a>
+			<a href="javascript:;">英国</a>
+			<a href="javascript:;">泰国</a>
+			<a href="javascript:;">印度</a>
+			<a href="javascript:;" class="nav_bot_i">其他</a>
+		</li>
+		<li>
+			<h2><span>按类型</span></h2>
+			<a href="javascript:;">喜剧</a>
+			<a href="javascript:;">恐怖</a>
+			<a href="javascript:;">爱情</a>
+			<a href="javascript:;">动作</a>
+			<a href="javascript:;" class="nav_bot_i">科幻</a><br />
+			<a href="javascript:;">武侠</a>
+			<a href="javascript:;">战争</a>
+			<a href="javascript:;">犯罪</a>
+			<a href="javascript:;">惊悚</a>
+			<a href="javascript:;" class="nav_bot_i">剧情</a>
+		</li>
+		<li class="nav_bot_li">
+			<h2><span>按上映时间</span></h2>
+			<a href="javascript:;">2014</a>
+			<a href="javascript:;">2013</a>
+			<a href="javascript:;">2012</a>
+			<a href="javascript:;">2011</a><br />
+			<a href="javascript:;">00年代</a>
+			<a href="javascript:;">90年代</a>
+			<a href="javascript:;">80年代</a>
+		</li>
+	</ul>
+</div>
+ <!--导航结束-->
+ <!--热点开始-->
+ <div class="hot w clearfix">
+ 	<ul class="clearfix fl">
+ 		<li><a href="javascript:;"><img src="img/hot.png" alt="" /></a></li>
+ 		<li><a href="javascript:;"><img src="img/hot1.png" alt="" /></a></li>
+ 		<li><a href="javascript:;"><img src="img/hot2.png" alt="" /></a></li>
+ 		<li><a href="javascript:;"><img src="img/hot3.png" alt="" /></a></li>
+ 	</ul>
+ 	<img src="img/hot4.png "alt="" class="fr hot_img" />
+ </div>
+ <!--热点结束-->
+ <!--电影预告  开始-->
+ <div class="yugao w clearfix">
+ 	<div class="yugao_left fl">
+ 		<ul class="yugao_list">
+ 			<li class="on">最新预告</li>
+ 			<li>院线热映</li>
+ 			<li>即将上映</li>
+ 		</ul>
+ 		<div class="yugao_con ">
+ 			<div style="display:block;" class="yugao_con_div clearfix">
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/1.jpg" class="pab" />
+ 					<dl class="pab">
+ 						<dt>微爱之渐入佳境</dt>
+ 						<dd>【预告片】陈赫涂红唇献吻顾长卫</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/1.jpg" class="pab" />
+ 					<dl class="pab">
+ 						<dt>微爱之渐入佳境</dt>
+ 						<dd>【预告片】陈赫涂红唇献吻顾长卫</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/1.jpg" class="pab" />
+ 					<dl class="pab">
+ 						<dt>微爱之渐入佳境</dt>
+ 						<dd>【预告片】陈赫涂红唇献吻顾长卫</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/1.jpg" class="pab" />
+ 					<dl class="pab">
+ 						<dt>微爱之渐入佳境</dt>
+ 						<dd>【预告片】陈赫涂红唇献吻顾长卫</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/1.jpg" class="pab" />
+ 					<dl class="pab">
+ 						<dt>微爱之渐入佳境</dt>
+ 						<dd>【预告片】陈赫涂红唇献吻顾长卫</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/1.jpg" class="pab" />
+ 					<dl class="pab">
+ 						<dt>微爱之渐入佳境</dt>
+ 						<dd>【预告片】陈赫涂红唇献吻顾长卫</dd>
+ 					</dl>
+ 				</a>
+ 			</div>
+ 			<div class="yugao_con_div clearfix">
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/meinv4.png" class="pab" />
+ 					<dl class="pab">
+ 						<dt>饥饿游戏3</dt>
+ 						<dd>【预告片】陈赫涂红唇献吻顾长卫</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/meinv4.png" class="pab" />
+ 					<dl class="pab">
+ 						<dt>饥饿游戏3</dt>
+ 						<dd>【预告片】13区黑客病毒视频曝光</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/meinv4.png" class="pab" />
+ 					<dl class="pab">
+ 						<dt>饥饿游戏3</dt>
+ 						<dd>【预告片】13区黑客病毒视频曝光</dd>
+ 					</dl>
+ 	天降雄狮
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/meinv4.png" class="pab" />
+ 					<dl cl13区黑客病毒视频曝光
+ 						<dt>饥饿游戏3</dt>
+ 						<dd>【预告片】13区黑客病毒视频曝光</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/meinv4.png" class="pab" />
+ 					<dl class="pab">
+ 						<dt>饥饿游戏3</dt>
+ 						<dd>【预告片】13区黑客病毒视频曝光</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/meinv4.png" class="pab" />
+ 					<dl class="pab">
+ 						<dt>饥饿游戏3</dt>
+ 						<dd>【预告片】13区黑客病毒视频曝光</dd>
+ 					</dl>
+ 				</a>
+ 			</div>
+ 			<div class="yugao_con_div clearfix">
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/yugao.jpg" class="pab" />
+ 					<dl class="pab">
+ 						<dt>天降雄狮</dt>
+ 						<dd>【预告片】筷子兄弟出演屌丝英雄</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/yugao.jpg" class="pab" />
+ 					<dl class="pab">
+ 						<dt>天降雄狮</dt>
+ 						<dd>【预告片】筷子兄弟出演屌丝英雄</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/yugao.jpg" class="pab" />
+ 					<dl class="pab">
+ 						<dt>天降雄狮</dt>
+ 						<dd>【预告片】筷子兄弟出演屌丝英雄</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/yugao.jpg" class="pab" />
+ 					<dl class="pab">
+ 						<dt>天降雄狮</dt>
+ 						<dd>【预告片】筷子兄弟出演屌丝英雄</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/yugao.jpg" class="pab" />
+ 					<dl class="pab">
+ 						<dt>天降雄狮</dt>
+ 						<dd>【预告片】筷子兄弟出演屌丝英雄</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="pre">
+ 					<img src="img/yugao.jpg" class="pab" />
+ 					<dl class="pab">
+ 						<dt>微爱之渐入佳境</dt>
+ 						<dd>【预告片】陈赫涂红唇献吻顾长卫</dd>
+ 					</dl>
+ 				</a>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<div class="yugao_right fl">
+ 		<h2>我正在看的电影<a href="javascript:;">更多</a></h2>
+ 		<div>暂无电影播放记录</div>
+ 	</div>
+ </div>
+ <!--电影预告  结束-->
+ <!--东风标致  结束-->
+ <div class="dfbz w">
+ 	<h2 class="clearfix">
+ 		<span class="fl">东风标致年度海外佳片</span>
+ 		<i class="fr"><em>东风标致</em>508</i>
+ 	</h2>
+ 	<div class="dfbz_bot pre">
+ 		<ul class="dfbz_list pab">
+ 			<li class="on"></li>
+ 			<li></li>
+ 			<li></li>
+ 		</ul>
+ 		<div class="dfbz_con">
+ 			<div style="display: block;" class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng1.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng2.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng3.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng4.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng5.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng9.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng10.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng11.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>
+ <div class="dfbz w">
+ 	<h2 class="clearfix">
+ 		<span>年终盘点之播放量TOP10</span>
+ 	</h2>
+ 	<div class="dfbz_bot pre">
+ 		<ul class="dfbz_list1 pab">
+ 			<li class="on"></li>
+ 			<li></li>
+ 			<li></li>
+ 		</ul>
+ 		<div class="dfbz_con1">
+ 			<div style="display: block;" class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng12.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng13.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng14.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng15.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng4.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng5.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng9.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng10.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng11.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>
+ 
+ <!--东风标致  结束-->
+ <div class="dfbz w">
+ 	<h2 class="clearfix">
+ 		<span>每周热门<a href="javascript:;" class="remen">更多</a></span>
+ 	</h2>
+ 	<div class="dfbz_bot pre">
+ 		<ul class="dfbz_list2 pab">
+ 			<li class="on"></li>
+ 			<li></li>
+ 			<li></li>
+ 			<li></li>
+ 			<li></li>
+ 		</ul>
+ 		<div class="dfbz_con2">
+ 			<div style="display: block;" class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng12.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng13.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng14.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng15.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng4.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng5.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng9.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng10.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng11.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng4.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng5.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng9.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng10.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng11.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>
+
+ <div class="dfbz w">
+ 	<h2 class="clearfix">
+ 		<span>院线精选<a href="javascript:;" class="remen">更多</a></span>
+ 	</h2>
+ 	<div class="dfbz_bot pre">
+ 		<ul class="dfbz_list3 pab">
+ 			<li class="on"></li>
+ 			<li></li>
+ 			<li></li>
+ 			<li></li>
+ 			<li></li>
+ 		</ul>
+ 		<div class="dfbz_con3">
+ 			<div style="display: block;" class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng12.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng13.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng14.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng15.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng4.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng5.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng9.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng10.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng11.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng4.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng5.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng9.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng10.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng11.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>
+ <!--院线精选  结束-->
+ <div class="wdy w clearfix">
+ 	<div class="wdy_left fl">
+ 		<h2>微电影</h2>
+ 		<ul class="clearfix">
+ 			<li>
+ 				<a href="javascript:;" class="pab"><img src="img/wdy (1).jpg" /></a>
+ 				<dl class="pab">
+ 					<dt>校花驾到之极品校花01</dt>
+ 					<dd>赵奕欢变身屌丝校花</dd>
+ 				</dl>
+ 			</li>
+ 			<li class="wdy_cen">
+ 				<a href="javascript:;" class="pab"><img src="img/wdy (1).jpg" /></a>
+ 				<dl class="pab">
+ 					<dt>校花驾到之极品校花01</dt>
+ 					<dd>赵奕欢变身屌丝校花</dd>
+ 				</dl>
+ 			</li>
+ 			<li>
+ 				<a href="javascript:;" class="pab"><img src="img/wdy (1).jpg" /></a>
+ 				<dl class="pab">
+ 					<dt>校花驾到之极品校花01</dt>
+ 					<dd>赵奕欢变身屌丝校花</dd>
+ 				</dl>
+ 			</li>
+ 		</ul>
+ 		<div>
+ 			<a href="javascript:;"><img src="img/guanggao.png"  class="guanggao" /></a>
+ 		</div>
+ 	</div>
+ 	<div class="wdy_right fr">
+ 		<h2>强档专区</h2>
+ 		<a href="javascript:;" class="clearfix">
+ 			<img src="img/quangdang.png" class="fl" />
+ 			<dl class="fl">
+ 				<dt>优酷电影2014年终盘点</dt>
+ 				<dd>谁是年度最任性大师</dd>
+ 			</dl>
+ 		</a>
+ 		<a href="javascript:;" class="clearfix">
+ 			<img src="img/quangdang1.png" class="fl" />
+ 			<dl class="fl">
+ 				<dt>音乐带你去旅行</dt>
+ 				<dd>英国站致敬披头士</dd>
+ 			</dl>
+ 		</a>
+ 		<a href="javascript:;" class="clearfix">
+ 			<img src="img/quangdang2.png" class="fl" />
+ 			<dl class="fl">
+ 				<dt>花样圣诞哪家强</dt>
+ 				<dd>过任性圣诞享感官盛宴</dd>
+ 			</dl>
+ 		</a>
+ 	</div>
+ </div>
+<!--微电影 结束-->
+<div class="dfbz w">
+ 	<h2 class="clearfix">
+ 		<span>会员免费/<b>1080P</b><a href="javascript:;" class="remen">更多</a></span>
+ 	</h2>
+ 	<div class="dfbz_bot pre">
+ 		<ul class="dfbz_list4 pab">
+ 			<li class="on"></li>
+ 			<li></li>
+ 		</ul>
+ 		<div class="dfbz_con4">
+ 			<div style="display: block;" class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng12.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng13.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng14.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng15.jpg" />
+ 					<dl> 
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng4.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng5.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>
+ <!--会员免费-->
+ <div class="women w dfbz clearfix" >
+ 	<div class="women_left fl">
+ 		<h2 class="clearfix">
+ 			<span class="fl">女性影院<a href="javascript:;" class="remen">更多</a></span>
+ 			<i class="fr"></i>
+ 		</h2>
+ 		<div class="dfbz_bot pre">
+ 		<ul class="dfbz_list5 pab">
+ 			<li class="on"></li>
+ 			<li></li>
+ 			<li></li>
+ 			<li></li>
+ 		</ul>
+ 		<div class="dfbz_con5">
+ 			<div style="display: block;" class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng1.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng2.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng3.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng4.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng5.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	</div>
+ 	<div class="women_right fr">
+ 		<ul class="women_list clearfix">
+ 			<li class="on">当红女星</li>
+ 			<li>当红男星</li>
+ 		</ul>
+ 		<div class="women_r_con">
+ 			<div  style="display: block;"  class="women_con">
+ 				<a href="javascript:;" class="clearfix">
+ 					<img src="img/women.png" class="fl" />
+ 					<span class="fl">范冰冰：霸气女王范</span>
+ 				</a>
+ 				<a href="javascript:;" class="clearfix">
+ 					<img src="img/women1.png" class="fl" />
+ 					<span class="fl">薛凯琪：纯情妞变花心女</span>
+ 				</a>
+ 				<a href="javascript:;" class="clearfix">
+ 					<img src="img/women2.png" class="fl" />
+ 					<span class="fl">杨子珊：清纯校园风</span>
+ 				</a>
+ 				<a href="javascript:;" class="clearfix">
+ 					<img src="img/women3.png" class="fl" />
+ 					<span class="fl">陈意涵：不止会撒娇</span>
+ 				</a>
+ 				<a href="javascript:;" class="clearfix">
+ 					<img src="img/women4.png" class="fl" />
+ 					<span class="fl">吴家丽：风韵犹存御姐范</span>
+ 				</a>
+ 			</div>
+ 			<div class="women_con">
+ 				<a href="javascript:;" class="clearfix">
+ 					<img src="img/nanxing.jpg" class="fl" />
+ 					<span class="fl">范冰冰：霸气女王范</span>
+ 				</a>
+ 				<a href="javascript:;" class="clearfix">
+ 					<img src="img/women1.png" class="fl" />
+ 					<span class="fl">薛凯琪：纯情妞变花心女</span>
+ 				</a>
+ 				<a href="javascript:;" class="clearfix">
+ 					<img src="img/nanxing.jpg" class="fl" />
+ 					<span class="fl">杨子珊：清纯校园风</span>
+ 				</a>
+ 				<a href="javascript:;" class="clearfix">
+ 					<img src="img/women3.png" class="fl" />
+ 					<span class="fl">陈意涵：不止会撒娇</span>
+ 				</a>
+ 				<a href="javascript:;" class="clearfix">
+ 					<img src="img/nanxing.jpg" class="fl" />
+ 					<span class="fl">吴家丽：风韵犹存御姐范</span>
+ 				</a>
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>
+  <!--女性影院-->
+ <div class="women w dfbz clearfix" >
+ 	<div class="women_left fl">
+ 		<h2 class="clearfix">
+ 			<span class="fl">华语最好看<a href="javascript:;" class="remen">更多</a></span>
+ 		</h2>
+ 		<div class="dfbz_bot pre">
+ 		<ul class="dfbz_list6 pab">
+ 			<li class="on"></li>
+ 			<li></li>
+ 			<li></li>
+ 			<li></li>
+ 		</ul>
+ 		<div class="dfbz_con6">
+ 			<div style="display: block;" class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng1.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng2.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng3.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng4.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng5.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 		  </div>
+ 	   </div>
+ 	   <div>
+ 	   	  <ul class="clearfix wdy_left">
+ 			<li>
+ 				<a href="javascript:;" class="pab"><img src="img/wdy (1).jpg" /></a>
+ 				<dl class="pab">
+ 					<dt>[搞笑喜剧影院]</dt>
+ 					<dd>屌丝爱重口恶搞无下限</dd>
+ 				</dl>
+ 			</li>
+ 			<li class="wdy_cen">
+ 				<a href="javascript:;" class="pab"><img src="img/wdy (1).jpg" /></a>
+ 				<dl class="pab">
+ 					<dt>[搞笑喜剧影院]</dt>
+ 					<dd>屌丝爱重口恶搞无下限</dd>
+ 				</dl>
+ 			</li>
+ 			<li>
+ 				<a href="javascript:;" class="pab"><img src="img/wdy (1).jpg" /></a>
+ 				<dl class="pab">
+ 					<dt>[搞笑喜剧影院]</dt>
+ 					<dd>屌丝爱重口恶搞无下限</dd>
+ 				</dl>
+ 			</li>
+ 		  </ul>
+ 	   </div>
+ 	</div>
+ 	<div class="huayu_right fr">
+ 		<h2 class="clearfix">
+ 			<span>华语热播排行</span>
+ 		</h2>
+ 		<ul>
+ 			<li>
+ 				<i class="fl"><em>1</em></i>
+ 				<span class="fl">好命先生</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>
+ 				<i class="fl"><em>2</em></i>
+ 				<span class="fl">星映话2014</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>
+ 				<i class="fl"><em>3</em></i>
+ 				<span class="fl">四大名捕大结局</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>
+ 				<i class="fl">4</i>
+ 				<span class="fl">智取威虎山纪录片</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>
+ 				<i class="fl">5</i>
+ 				<span class="fl">报告老板！贺岁片</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>
+ 				<i class="fl">6</i>
+ 				<span class="fl">暖男电话</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>
+ 				<i class="fl">7</i>
+ 				<span class="fl">痞子英雄：黎明升起</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>
+ 				<i class="fl">8</i>
+ 				<span class="fl">黄飞鸿之英雄有梦</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>
+ 				<i class="fl">9</i>
+ 				<span class="fl">一个人的武林</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>
+ 				<i class="fl">10</i>
+ 				<span class="fl">后会无期</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 		</ul>
+ 		<div class="huayu_paonan">
+ 			<a href="javascript:;"><img src="img/paonan.png"/></a>
+ 		</div>
+ 	</div>
+ </div>
+ <!--华语电影 结束-->
+<div class="women w dfbz clearfix gangtai" >
+ 	<div class="gangtai_left fl">
+ 		<h2 class="clearfix">
+ 			<span class="fl">港台经典<a href="javascript:;" class="remen">更多</a></span>
+ 		</h2>
+ 		<div class="dfbz_bot pre">
+ 		  <div class="gangtai_con6">
+ 			<div style="display: block;" class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 				</a>
+ 			</div>
+ 		  </div>
+ 	   </div>
+ 	</div>
+ 	<div class="huayu_right fr gangtai_right">
+ 		<h3 class="gangtai_list clearfix">
+ 			<i class="on">内地票房排行</i>
+ 			<i>北美票房排行</i>
+ 		</h3>
+ 		<p>2014年12月12日-12月28日周票房 单位人民币（万）</p>
+ 		<div class="gangtai_con" >
+	 		<ul style="display: block;">
+	 			<li>
+	 				<i class="fl"><em>1</em></i>
+	 				<span class="fl">智取威虎山</span>
+	 				<b class="fr"></b>
+	 			</li>
+	 			<li>
+	 				<i class="fl"><em>2</em></i>
+	 				<span class="fl">微爱之渐入佳境</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 			<li>
+	 				<i class="fl"><em>3</em></i>
+	 				<span class="fl">一步之遥</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 			<li>
+	 				<i class="fl">4</i>
+	 				<span class="fl">匆匆那年</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 			<li>
+	 				<i class="fl">5</i>
+	 				<span class="fl">抢劫坚果店</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 			<li>
+	 				<i class="fl">6</i>
+	 				<span class="fl">太平轮</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 			<li>
+	 				<i class="fl">7</i>
+	 				<span class="fl">我的更早女友</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 			<li>
+	 				<i class="fl">8</i>
+	 				<span class="fl">末日浩劫</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 			<li>
+	 				<i class="fl">9</i>
+	 				<span class="fl">男人不可以穷</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 			<li>
+	 				<i class="fl">10</i>
+	 				<span class="fl">还魂之迷失曼谷</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 		</ul>
+	 		<ul>
+	 			<li>
+	 				<i class="fl"><em>1</em></i>
+	 				<span class="fl">后会无期</span>
+	 				<b class="fr"></b>
+	 			</li>
+	 			<li>
+	 				<i class="fl"><em>2</em></i>
+	 				<span class="fl">匆匆那年</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 			<li>
+	 				<i class="fl"><em>3</em></i>
+	 				<span class="fl">一步之遥</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 			<li>
+	 				<i class="fl">4</i>
+	 				<span class="fl">匆匆那年</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 			<li>
+	 				<i class="fl">5</i>
+	 				<span class="fl">抢劫坚果店</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 			<li>
+	 				<i class="fl">6</i>
+	 				<span class="fl">太平轮</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 			<li>
+	 				<i class="fl">7</i>
+	 				<span class="fl">匆匆那年</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 			<li>
+	 				<i class="fl">8</i>
+	 				<span class="fl">末日浩劫</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 			<li>
+	 				<i class="fl">9</i>
+	 				<span class="fl">匆匆那年</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 			<li>
+	 				<i class="fl">10</i>
+	 				<span class="fl">还魂之迷失曼谷</span>
+	 				<b class="fr">150.1万</b>
+	 			</li>
+	 		</ul>		
+     	</div>
+ 	</div>
+ </div>
+
+
+   <!--港台经典-->
+
+ <div class="women w dfbz clearfix mlj" >
+ 	<div class="women_left fl mlj_left">
+ 		<h2 class="clearfix">
+ 			<span class="fl">称霸美利坚<a href="javascript:;" class="remen">更多</a></span>
+ 			<i class="fr"></i>
+ 		</h2>
+ 		<div class="dfbz_bot pre">
+ 		<ul class="mlj_list pab">
+ 			<li class="on"></li>
+ 			<li></li>
+ 			<li></li>
+ 			<li></li>
+ 		</ul>
+ 		<div class="mlj_con">
+ 			<div style="display: block;" class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng1.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng2.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng3.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng4.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng5.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 		  </div>
+ 	   </div>
+ 	   <div>
+ 	   	  <ul class="clearfix wdy_left">
+ 			<li>
+ 				<a href="javascript:;" class="pab"><img src="img/wdy (1).jpg" /></a>
+ 				<dl class="pab">
+ 					<dt>[搞笑喜剧影院]</dt>
+ 					<dd>屌丝爱重口恶搞无下限</dd>
+ 				</dl>
+ 			</li>
+ 			<li class="wdy_cen">
+ 				<a href="javascript:;" class="pab"><img src="img/wdy (1).jpg" /></a>
+ 				<dl class="pab">
+ 					<dt>[搞笑喜剧影院]</dt>
+ 					<dd>屌丝爱重口恶搞无下限</dd>
+ 				</dl>
+ 			</li>
+ 			<li>
+ 				<a href="javascript:;" class="pab"><img src="img/wdy (1).jpg" /></a>
+ 				<dl class="pab">
+ 					<dt>[搞笑喜剧影院]</dt>
+ 					<dd>屌丝爱重口恶搞无下限</dd>
+ 				</dl>
+ 			</li>
+ 		  </ul>
+ 	   </div>
+ 	</div>
+ 	<div class="huayu_right fr">
+ 		<h2 class="clearfix">
+ 			<span>外语热播排行</span>
+ 		</h2>
+ 		<ul>
+ 			<li>
+ 				<i class="fl"><em>1</em></i>
+ 				<span class="fl">博物馆奇妙夜</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>
+ 				<i class="fl"><em>2</em></i>
+ 				<span class="fl">美女与野兽</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>
+ 				<i class="fl"><em>3</em></i>
+ 				<span class="fl">博物馆奇妙夜2</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>
+ 				<i class="fl">4</i>
+ 				<span class="fl">特种部队2：全面反击</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>
+ 				<i class="fl">5</i>
+ 				<span class="fl">雪国列车</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>
+ 				<i class="fl">6</i>
+ 				<span class="fl">空中营救</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>
+ 				<i class="fl">7</i>
+ 				<span class="fl">变形金刚三</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>
+ 				<i class="fl">8</i>
+ 				<span class="fl">美国战舰</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>	
+ 				<i class="fl">9</i>
+ 				<span class="fl">人间中毒</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 			<li>
+ 				<i class="fl">10</i>
+ 				<span class="fl">庞贝末日</span>
+ 				<b class="fr">150.1万</b>
+ 			</li>
+ 		</ul>
+ 		<div class="huayu_paonan">
+ 			<a href="javascript:;"><img src="img/bao.png"/></a>
+ 		</div>
+ 	</div>
+ </div>
+  <!--美利坚-->
+ <div class="women w dfbz clearfix mlj" >
+ 	<div class="women_left fl rty_left">
+ 		<h2 class="clearfix">
+ 			<span class="fl">日韩亚太区<a href="javascript:;" class="remen">更多</a></span>
+ 			<i class="fr"></i>
+ 		</h2>
+ 		<div class="dfbz_bot pre">
+ 		<ul class="rty_list pab">
+ 			<li class="on"></li>
+ 			<li></li>
+ 			<li></li>
+ 			<li></li>
+ 		</ul>
+ 		<div class="rty_con">
+ 			<div style="display: block;" class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng1.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng2.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng3.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng4.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng5.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 		  </div>
+ 	   </div>
+ 	   <div><img src="img/rhy.png" /></div>
+ 	</div>
+ 	<div class="huayu_right fr rhy_right">
+ 		<h2 class="clearfix">
+ 			<span>即将上线</span>
+ 		</h2>
+ 		<ul>
+ 			<li>
+ 				<a href="javascript:;"  class="fl"><img src="img/rhy1.png" /></a>
+ 				<dl class="fl">
+ 					<dt>撒娇女人最好运</dt>
+ 					<dd>2015年1月28日 即将上线</dd>
+ 				</dl>
+ 			</li>
+ 			<li>
+ 				<a href="javascript:;"  class="fl"><img src="img/rhy2.png" /></a>
+ 				<dl class="fl">
+ 					<dt>一步之遥</dt>
+ 					<dd>即将上线</dd>
+ 				</dl>
+ 			</li>
+ 			<li>
+ 				<a href="javascript:;"  class="fl"><img src="img/rhy3.png" /></a>
+ 				<dl class="fl">
+ 					<dt>智取威虎山</dt>
+ 					<dd>即将上线</dd>
+ 				</dl>
+ 			</li>
+ 		</ul>
+ 		<div class="rhy_paonan">
+ 			<a href="javascript:;"><img src="img/rhy4.png"/></a>
+ 		</div>
+ 	</div>
+ </div>
+  <!--日韩亚-->
+   <div class="women w dfbz clearfix" >
+ 	<div class="women_left fl">
+ 		<h2 class="clearfix">
+ 			<span class="fl">经典欧洲风<a href="javascript:;" class="remen">更多</a></span>
+ 		</h2>
+ 		<div class="dfbz_bot pre">
+ 		<ul class="ozf_list pab">
+ 			<li class="on"></li>
+ 			<li></li>
+ 			<li></li>
+ 			<li></li>
+ 		</ul>
+ 		<div class="ozf_con">
+ 			<div style="display: block;" class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng1.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng2.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng3.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng4.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng5.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre women_mar0">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>功夫梦</dt>
+ 						<dd>小史密斯拜师成龙学武</dd>
+ 					</dl>
+ 					<span class="pinfen pab">8.<i>5</i></span>
+ 				</a>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	</div>
+ 	<div class="women_right fr">
+ 		<h2 class="clearfix">
+ 			<span class="fl">精彩视频</span>
+ 		</h2>
+ 		<div class="women_r_con  ozf_r_con">
+ 			<div  style="display: block;"  class="women_con">
+ 				<a href="javascript:;" class="clearfix">
+ 					<img src="img/ozf.png" class="fl" />
+ 					<span class="fl">一起野，才兄弟</span>
+ 				</a>
+ 				<a href="javascript:;" class="clearfix">
+ 					<img src="img/ozf1.png" class="fl" />
+ 					<span class="fl">沃尔沃XC60瞩目问世</span>
+ 				</a>
+ 				<a href="javascript:;" class="clearfix">
+ 					<img src="img/ozf2.png" class="fl" />
+ 					<span class="fl">神秘分享闺蜜真情流露</span>
+ 				</a>
+ 				<a href="javascript:;" class="clearfix">
+ 					<img src="img/ozf3.png" class="fl" />
+ 					<span class="fl">神秘分享闺蜜真情流露</span>
+ 				</a>
+ 				<a href="javascript:;" class="clearfix">
+ 					<img src="img/ozf4.png" class="fl" />
+ 					<span class="fl">群星演绎为爱热牛奶</span>
+ 				</a>
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>
+ <!--欧洲风-->
+ <div class="dfbz w">
+ 	<h2 class="clearfix">
+ 		<span>亿元票房俱乐部</span>
+ 	</h2>
+ 	<div class="dfbz_bot pre">
+ 		<ul class="yiyuan_list pab">
+ 			<li class="on"></li>
+ 			<li></li>
+ 			<li></li>
+ 		</ul>
+ 		<div class="yiyuan_con">
+ 			<div style="display: block;" class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng12.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng13.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng14.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng15.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng4.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng5.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng6.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng7.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 			<div class="dfbz_con_more clearfix">
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng8.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng9.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre">
+ 					<img src="img/dongfeng10.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<a href="javascript:;" class="dfbz_con_a pre mar_0">
+ 					<img src="img/dongfeng11.jpg" />
+ 					<dl>
+ 						<dt>庞贝末日</dt>
+ 						<dd>熔岩城下的永恒爱情</dd>
+ 					</dl>
+ 				</a>
+ 				<img src="img/bange.png"  class="bange fr" />	
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>
+ <!--亿元票房俱乐部-->
+ <div class="logo w">
+ 	<h2 class="clearfix">
+ 		<span>合作伙伴</span>
+ 	</h2>
+ 	<div class="logo_bot clearfix">
+ 		<a href="javascript:;"><img src="img/logo1.png" /></a>
+ 		<a href="javascript:;"><img src="img/logo2.png" /></a>
+ 		<a href="javascript:;"><img src="img/logo3.png" /></a>
+ 		<a href="javascript:;"><img src="img/logo4.png" /></a>
+ 		<a href="javascript:;" class="logo_mar0"><img src="img/logo5.png" /></a>
+ 		<a href="javascript:;"><img src="img/logo6.png" /></a>
+ 		<a href="javascript:;"><img src="img/logo7.png" /></a>
+ 		<a href="javascript:;"><img src="img/logo8.png" /></a>
+ 		<a href="javascript:;"><img src="img/logo9.png" /></a>
+ 		<a href="javascript:;"  class="logo_mar0"><img src="img/logo10.png" /></a>
+ 	</div>
+ </div>
+ <div class="footer w">
+ 	<ul class="clearfix">
+ 		<li>
+ 			<h5>资源</h5>
+ 			<a href="javascript:;">电视剧</a>
+ 			<a href="javascript:;">电影</a>
+ 			<a href="javascript:;">综艺</a>
+ 			<a href="javascript:;">动漫</a>
+ 			<a href="javascript:;">音乐</a>
+ 			<a href="javascript:;">全部</a>
+ 			<h5>用户</h5>
+ 			<a href="javascript:;">个性化首页</a>
+ 			<a href="javascript:;">优酷认证</a>
+ 			<a href="javascript:;">分享计划</a>
+ 		</li>
+ 		<li>
+ 			<h5>分类</h5>
+ 			<a href="javascript:;">出品</a>
+ 			<a href="javascript:;">资讯</a>
+ 			<a href="javascript:;">拍客</a>
+ 			<a href="javascript:;">体育</a>
+ 			<a href="javascript:;">汽车</a>
+ 			<a href="javascript:;">科技</a><br />
+ 			<a href="javascript:;">公益</a>
+ 			<a href="javascript:;">电影</a>
+ 			<a href="javascript:;">综艺</a>
+ 			<a href="javascript:;">动漫</a>
+ 			<a href="javascript:;">音乐</a>
+ 			<a href="javascript:;">全部</a><br />
+ 			<a href="javascript:;">音乐</a>
+ 			<a href="javascript:;">电影</a>
+ 			<a href="javascript:;">综艺</a>
+ 			<a href="javascript:;">动漫</a>
+ 			<a href="javascript:;">音乐</a>
+ 		</li>
+ 		<li>
+ 			<h5>软件</h5>
+ 			<a href="javascript:;">出品</a>
+ 			<a href="javascript:;">资讯</a><br />
+ 			<a href="javascript:;">拍客</a>
+ 			<a href="javascript:;">体育</a><br />
+ 			<a href="javascript:;">汽车</a>
+ 			<a href="javascript:;">科技</a>
+ 		</li>
+ 		<li>
+ 			<h5>支持</h5>
+ 			<a href="javascript:;">资讯</a><br />
+ 			<a href="javascript:;">体育</a><br />
+ 			<a href="javascript:;">汽车</a>
+ 		</li>
+ 		<li>
+ 			<h5>优酷土豆集团</h5>
+ 			<a href="javascript:;">youku toudou inc</a><br />
+ 			<a href="javascript:;">体育</a><br />
+ 			<a href="javascript:;">汽车</a>
+ 		</li>
+ 		<li>
+ 			<h5>优酷</h5>
+ 			<a href="javascript:;">youku.com</a><br />
+ 			<a href="javascript:;">体育</a><br />
+ 			<a href="javascript:;">汽车</a>
+ 		</li>
+ 		<li>
+ 			<h5>土豆</h5>
+ 			<a href="javascript:;">tudou.com</a><br />
+ 			<a href="javascript:;">体育</a><br />
+ 			<a href="javascript:;">汽车</a>
+ 		</li>
+ 	</ul>
+ </div>
+ <div class="copyright w clearfix">
+ 	<ul class="clearfix fl">
+ 		<li class="anquan">
+ 			<a href="javascript:;">经营性网站备案信息</a><br />
+ 			<a href="javascript:;">中国互联网诚信联盟</a><br />
+ 			<a href="javascript:;">不良信息举报中心</a><br />
+ 			<a href="javascript:;">网络文化经营单位</a>
+ 		</li>
+ 		<li>
+ 			<a href="javascript:;">京pic证353453号</a><br />
+ 			<a href="javascript:;">京pic证353453号</a><br />
+ 			<a href="javascript:;">京pic证353453号</a><br />
+ 			<a href="javascript:;">京pic证353453号</a>
+ 		</li>
+ 		<li>
+ 			<a href="javascript:;">网络文化经营许可证【424】5345号</a><br />
+ 			<a href="javascript:;">网络文化经营许可证【424】5345号</a><br />
+ 			<a href="javascript:;">网络文化经营许可证【424】5345号</a><br />
+ 			<a href="javascript:;">网络文化经营许可证【424】5345号</a>
+ 		</li>
+ 	</ul>
+ 	<div class="erweima clearfix">
+ 		<img src="img/reweima.png"  class="fl" />
+ 		<dl class="fl">
+ 			<dt>优酷APP</dt>
+ 			<dd>扫描获点击下载</dd>
+ 		</dl>
+ 	</div>
+ 	<p>请使用者仔细阅读优酷试用协议、版权声明、反盗版链接声明。不良信息举报电话4324234号</p>
+ </div>
+</body>
+</html>

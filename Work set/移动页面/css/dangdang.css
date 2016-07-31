@@ -1,0 +1,389 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+input {
+  outline: none;
+}
+a {
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: #5d5d5d;
+}
+header {
+  width: 16rem;
+  height: 2.15rem;
+  background: #f0f0f0;
+  padding: .3rem ;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+header h1 {
+  font-size: 1.25rem;
+  color: #149b7b;
+  float: left;
+}
+header a {
+  float: right;
+  margin-right: .55rem;
+  margin-top: .3rem;
+  width: 1.5rem;
+  height: 1.15rem;
+}
+header a.dl {
+  background: url(../images/dangdang/dl.png);
+  background-size: 100%;
+}
+header a.gwc {
+  background: url(../images/dangdang/gwc.png);
+  background-size: 100%;
+}
+header a.cd {
+  background: url(../images/dangdang/cd.png);
+  background-size: 100%;
+}
+.banner {
+  width: 16rem;
+  height: 6.25rem;
+}
+.banner .banner2 {
+  width: 16rem;
+  height: 6.25rem;
+}
+.banner .banner2 img {
+  width: 16rem;
+  height: 6.25rem;
+}
+.banner .swiper-pagination {
+  margin-bottom: -0.3rem;
+}
+.top {
+  width: 16rem;
+  height: 14.85rem;
+  background: #f0f0f0;
+  box-sizing: border-box;
+  border-bottom: 0.05rem solid #fdebbb;
+  padding: .5rem;
+}
+.top .xz img {
+  width: 15.2rem;
+  height: 1.5rem;
+  display: block;
+  margin-left: -0.15rem;
+  margin-bottom: 0.5rem;
+}
+.top .search {
+  width: 15rem;
+  height: 2rem;
+  overflow: hidden;
+}
+.top .search .tex {
+  float: left;
+  width: 11.9rem;
+  height: 2rem;
+  font-size: 0.6rem;
+  border: 0.05rem solid #ee952f;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+.top .search .sea {
+  float: left;
+  width: 3rem;
+  height: 2rem;
+  background: url(../images/dangdang/sea.png);
+  background-size: 100%;
+}
+.top .nav {
+  overflow: hidden;
+  width: 10.975rem;
+  margin: 0.425rem auto;
+}
+.top .nav li {
+  float: left;
+  font-size: 0.65rem;
+  line-height: 1.775rem;
+  margin-right: .75rem;
+}
+.top .cd {
+  overflow: hidden;
+  margin-top: 1.1rem;
+}
+.top .cd li {
+  float: left;
+  margin-right: .9rem;
+  font-size: 0.55rem;
+  text-align: center;
+}
+.top .cd li i {
+  width: 3rem;
+  height: 3rem;
+  display: block;
+  margin-bottom: .2rem;
+}
+.top .cd li i.i1 {
+  background: url(../images/dangdang/dd.png);
+  background-size: 100%;
+}
+.top .cd li i.i2 {
+  background: url(../images/dangdang/yh.png);
+  background-size: 100%;
+}
+.top .cd li i.i3 {
+  background: url(../images/dangdang/kf.png);
+  background-size: 100%;
+}
+.top .cd li i.i4 {
+  background: url(../images/dangdang/ls.png);
+  background-size: 100%;
+}
+.top .cd li.no {
+  margin-right: 0;
+}
+.sj {
+  width: 16rem;
+  height: 1.4rem;
+  background: #fe9600;
+  border-top: .05rem solid #df9331;
+  border-bottom: .05rem solid #df9331;
+  padding: 0 .5rem;
+  box-sizing: border-box;
+  line-height: 1rem;
+  position: relative;
+}
+.sj span {
+  color: #e9fdf2;
+  font-size: 0.65rem;
+}
+.sj span.p2 {
+  font-size: 0.55rem;
+}
+.sj a {
+  width: 0.35rem;
+  height: 0.575rem;
+  background: url(../images/dangdang/jt.png);
+  background-size: 100%;
+  position: absolute;
+  right: .5rem;
+  top: .4rem;
+}
+.shop1 {
+  width: 16rem;
+  height: 12.75rem;
+  background: #f0f0f0;
+  padding-left: .4rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.shop1 .sp {
+  width: 15.5rem;
+  height: 7.25rem;
+  margin: .5rem 0;
+}
+.shop1 .sp .fad {
+  overflow: hidden;
+}
+.shop1 .sp .fad div {
+  width: 7.25rem;
+  height: 7.25rem;
+  float: left;
+  margin-right: .5rem;
+}
+.shop1 .sp .fad div img {
+  width: 7.25rem;
+  height: 7.25rem;
+}
+.shop1 .hui,
+.shop1 .bai {
+  width: 15.2rem;
+  height: 0.05rem;
+  background: #e5e5e5;
+}
+.shop1 .bai {
+  background: #fbfbfb;
+}
+.shop1 p {
+  line-height: 1.775rem;
+  font-size: 0.7rem;
+  position: relative;
+}
+.shop1 p span {
+  position: absolute;
+  top: 0rem;
+  right: 1rem;
+  color: red;
+}
+.sj2 {
+  background: #e50055;
+}
+.sj2 a {
+  background: url(../images/dangdang/jt2.png);
+  background-size: 100%;
+}
+.cp {
+  width: 16rem;
+}
+.cp img {
+  display: block;
+  width: 16rem;
+  height: 7rem;
+}
+.bottom {
+  width: 16rem;
+  height: 15.4rem;
+  background: #f0f0f0;
+  padding: .5rem;
+  box-sizing: border-box;
+}
+.bottom .fz {
+  overflow: hidden;
+  margin-bottom: .5rem;
+}
+.bottom .fz li {
+  float: left;
+  width: 4.65rem;
+  height: 1.45rem;
+  background: #fff;
+  text-align: center;
+  line-height: 1.2rem;
+}
+.bottom .fz li.li1 {
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+}
+.bottom .fz li.li2 {
+  margin-bottom: .5rem;
+}
+.bottom .hui,
+.bottom .bai {
+  width: 15.2rem;
+  height: 0.05rem;
+  background: #e5e5e5;
+}
+.bottom .bai {
+  background: #fbfbfb;
+}
+.bottom p {
+  line-height: 1.775rem;
+  font-size: 0.7rem;
+  position: relative;
+}
+.bottom p span {
+  position: absolute;
+  top: 0rem;
+  right: 1rem;
+  color: #f7a130;
+}
+.bottom .cdl {
+  overflow: hidden;
+  margin-top: 1.5rem;
+}
+.bottom .cdl li {
+  float: left;
+  margin-right: .9rem;
+  font-size: 0.55rem;
+  text-align: center;
+}
+.bottom .cdl li i {
+  width: 3rem;
+  height: 3rem;
+  display: block;
+  margin-bottom: .2rem;
+}
+.bottom .cdl li a {
+  font-size: 0.55rem;
+}
+.bottom .cdl li i.i1 {
+  background: url(../images/dangdang/cz.png);
+  background-size: 100%;
+}
+.bottom .cdl li i.i2 {
+  background: url(../images/dangdang/yb.png);
+  background-size: 100%;
+}
+.bottom .cdl li i.i3 {
+  background: url(../images/dangdang/ddk.png);
+  background-size: 100%;
+}
+.bottom .cdl li i.i4 {
+  background: url(../images/dangdang/ds.png);
+  background-size: 100%;
+}
+.bottom .cdl li.no {
+  margin-right: 0;
+}
+.last {
+  width: 16rem;
+  height: 6.7rem;
+  background: #e0e0e0;
+  padding: .5rem;
+  box-sizing: border-box;
+}
+.last .search {
+  width: 15rem;
+  height: 2rem;
+  overflow: hidden;
+  margin-bottom: .3rem;
+}
+.last .search .tex {
+  float: left;
+  width: 11.9rem;
+  height: 2rem;
+  font-size: 0.6rem;
+  border: 0.05rem solid #adadad;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+.last .search .sea {
+  float: left;
+  width: 3rem;
+  height: 2rem;
+  background: url(../images/dangdang/sea2.png);
+  background-size: 100%;
+}
+.last p {
+  text-align: center;
+  line-height: 1.65rem;
+}
+.last p a {
+  width: 3.25rem;
+  height: 1.1rem;
+  display: inline-block;
+  line-height: 1.4rem;
+}
+.last p a.ac {
+  border-bottom: .1rem solid #ee9d27;
+}
+.zhuce {
+  width: 16rem;
+  height: 1.5rem;
+  background: #b0b0b0;
+  line-height: 1.3rem;
+  position: relative;
+}
+.zhuce a {
+  color: #fff;
+  margin-left: .8rem;
+}
+.zhuce i {
+  position: absolute;
+  width: 2.025rem;
+  height: 0.575rem;
+  background: url(../images/dangdang/top.png);
+  background-size: 100%;
+  top: .5rem;
+  right: .6rem;
+}
+footer {
+  width: 16rem;
+  height: 2rem;
+  background: #e0e0e0;
+}
+footer p {
+  font-size: 0.55rem;
+  color: #8f8f8f;
+  line-height: 2rem;
+}

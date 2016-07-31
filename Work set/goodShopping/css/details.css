@@ -1,0 +1,83 @@
+*{margin:0;padding:0;color:#666;}
+a{text-decoration: none;}
+.indexLogo{width:1200px;height:110px;margin:20px auto 0;}
+.indexLogo .ss{width:1200px;height:110px;background:url(../images/logo.png) no-repeat;padding-top:20px;}
+.indexLogo .ss .ss_r{width:480px;height:70px;margin:0 auto;}
+.indexLogo .ss .ss_r .ssk{width:680px;height:30px;}
+.indexLogo .ss .ss_r .ssk .ssk_l{float:left;width:400px;height:27px;border:2px solid #B71A21;outline: none;color:gray;text-indent: 5px;}
+.indexLogo .ss .ss_r .ssk .ssk_r{float:left;width:50px;height:31px;border:0;background-color:#B81B22;margin-left:-2px;font-size:15px;color:white;cursor:pointer;outline: none;}
+.indexLogo .ss .ss_r .ssk .gwc{float:right;width:105px;height:25px;position:relative;border:1px solid #B81B22;margin-left:50px;}
+.indexLogo .ss .ss_r .ssk .gwc a{width:105px;height:25px;color:white;font-size:13px;position:absolute;display:block;text-indent:30px;line-height:25px;background:url(../images/vanclsprite.png) no-repeat -154px 0;}
+.indexLogo .ss .ss_r .ssk .gwc .gwc_x{width:200px;height:25px;border:1px solid #B81B22;position:absolute;right:-1px;top:25px;font-size:13px;line-height:25px;background:white;display:none;}
+.indexLogo .ss .ss_r .ssk .gwc:hover .gwcOver{width:105px;height:2px;background-color: white;position: absolute;left:0;top:24px;z-index: 10;}
+.indexLogo .ss .ss_r .ssk .gwc:hover{width:105px;height:25px;}
+.indexLogo .ss .ss_r .ssk .gwc:hover>a{width:105px;height:26px;font-size:13px;color:#B81B22;border-bottom:0;display:block;background:url(../images/vanclsprite.png) no-repeat -154px -29px;}
+.indexLogo .ss .ss_r .ssk .gwc:hover>.gwc_x{display:block;z-index:1;}
+.indexLogo .ss .ss_r .rmss{width:640px;height:25px;margin-top:5px;}
+.indexLogo .ss .ss_r .rmss ul li{float:left;list-style:none;color:gray;font-size:13px;margin-right:10px;}
+
+.shop-head{width:100%;height:150px;position: relative;overflow: hidden;}
+.shop-head img{position: absolute;left:50%;margin-left: -960px;}
+
+.root-nav{width:100%;height:45px;background-color: #f2f2f2;}
+.root-nav .navBox{width:1200px;height:45px;margin:0 auto;}
+.root-nav .navBox span:nth-child(1){font-size: 18px;font-weight: 700;line-height: 45px;}
+.root-nav .navBox span:nth-child(2),.root-nav .navBox span:nth-child(3){font-family:"\5b8b\4f53";font-size: 12px;}
+
+.infoBox{width:100%;background-color: #f2f2f2;height:450px;padding:10px;}
+.infoBox .infoContent{width:1200px;margin:0 auto;background-color: white;height:414px;}
+.imgBox{float:left;}
+
+.m-item-inner{float:left;padding:10px 40px;width:45%;background-color: white;}
+.goodsName{height:70px;line-height: 30px;}
+.summary{height:50px;margin-top:20px;}
+.summary-price strong{color:#e4393c;font-size: 22px;}
+.choose{margin-top:20px;height:100px;}
+.chooseColor,.chooseSize{padding:5px 0;height:40px;}
+.chooseColor div,.chooseSize div{float:left;}
+.chooseColor .dt,.chooseSize .dt{margin-top:5px;}
+.color ul li,.size ul li{float:left;list-style: none;margin:2px 8px 2px 0;position: relative;}
+.color ul li a,.size ul li a{border:1px solid #ccc;padding:1px;display: block;background-color: white;text-decoration: none;}
+.color ul li a img{margin:1px 3px 1px 1px;vertical-align: middle;display: inline-block;}
+.color ul li a i{vertical-align: middle;font-style: normal;font-size: 12px;color:#666;margin-right:3px;}
+
+.size ul li a{font-size: 14px;color:#666;padding:3px 5px;}
+.color ul li:nth-child(1) a{border: 2px solid #e4393c;padding:0;}
+.size ul li:nth-child(1) a{border: 2px solid #e4393c;padding:2px 4px;}
+
+.color ul li>i,.size ul li>i{position: absolute;right:0;bottom:0;width:12px;height:12px;overflow: hidden;background: url(../images/newicon20140910.png) no-repeat -202px -224px;display: none}
+.color ul li:nth-child(1)>i,.size ul li:nth-child(1)>i{display: block;}
+.color ul li:hover a{border: 2px solid #e4393c;padding:0;}
+.color ul li:hover a i{color:#e4393c;}
+.size ul li:hover a{border: 2px solid #e4393c;color:#e4393c;padding:2px 4px;}
+
+.choose-btns{height:60px;margin-top:40px;}
+
+.choose-btns>div{float:left;margin-right: 20px;}
+.choose-btns .choose-amount{position: relative;width:49px;}
+.choose-btns .choose-amount input{width:31px;height:32px;text-align: center;}
+.choose-btns .choose-amount .btn-add,.choose-btns .choose-amount .btn-reduce{
+    position: absolute;width:15px;height:17px;line-height: 17px;background: #f1f1f1;border:1px solid #ccc;
+    text-align: center;line-height: 17px;
+}
+.choose-btns .choose-amount .btn-add{top:0;right:0;}
+.choose-btns .choose-amount .btn-reduce{right:0;bottom:0;}
+.choose-btns .appendCar a{display: block;width:137px;height:38px;background: url(../images/p-btns.png) no-repeat 0 0;}
+
+
+.product-details{width:800px;margin:20px auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

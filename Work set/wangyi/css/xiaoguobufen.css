@@ -1,0 +1,38 @@
+.xg_b:hover i.select-b{
+	width: 0;
+	height: 0;
+	border-color:transparent transparent red transparent;
+	border-width:0 4px 4px 4px;
+	border-style:solid solid solid solid;
+}
+.xg_b{position: relative;}
+.xg_b div{width: 100px; height: 160px; background: red; position: absolute; left: 0; top: 42px; z-index: 99; display: none;}
+
+#kk{width: 400px; height: 400px; background: pink; position: absolute; left: 50%; top: 50%; margin-left: -200px; margin-top: -200px; z-index: 99; display: none;}
+
+
+.div ul{display: none;}
+
+.banner-img li{display: none;}
+#gang li{cursor: pointer;}
+
+.wu .you{display: none;}
+
+.footer-info ul li:hover{background: blue;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

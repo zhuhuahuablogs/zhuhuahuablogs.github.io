@@ -1,0 +1,234 @@
+@charset "tuf-8";
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+.width(@width:640){
+	width: @width/40rem;
+}
+.height(@height:40){
+	height: @height/40rem;
+}
+.fontsize(@fontsize:40){
+	font-size: @fontsize/40rem;
+}
+.marginbottom(@mb:40){
+	margin-bottom: @mb/40rem;
+}
+
+body{font-family: "黑体";}
+a{text-decoration: none; font-size: .7rem; color: #333;}
+
+header{
+	.width();
+	.height(90);
+	background: #262626;
+	border-bottom: .1rem solid #4bccae;
+	text-align: center;
+	line-height: 2.25rem;
+	position: relative;
+	a{
+		position: absolute;
+		.width(58);
+		.height(46);
+		top: .5rem;
+	}
+	a.cd{
+		background: url(../images/guokr/cd.png);
+		background-size: 100%;
+		left: .4rem;
+	}
+	h1{
+		color: #fff;
+		.fontsize(40);
+	}
+	a.pc{
+		background: url(../images/guokr/pc.png);
+		background-size: 100%;
+		right: .4rem;
+	}
+}
+.topyh{
+	.width();
+	.height(82);
+	background: #fafafa;
+	overflow: hidden;
+	position: relative;
+	i{.width(58);.height(58); display: block; float: left; margin: .3rem .6rem 0 1.45rem;}
+	a{color: #828186; float: left; margin-top: .6rem;}
+	.left{
+		float: left;
+		width: 50%;
+		overflow: hidden;
+		i{background: url(../images/guokr/dl.png); background-size: 100%;}
+	}
+	.right{
+		float: left;
+		width: 50%;
+		overflow: hidden;
+		i{background: url(../images/guokr/zc.png); background-size: 100%;}
+	}
+	.s{
+		position: absolute;
+		.width(2);
+		.height(58);
+		background: url(../images/guokr/s.png);
+		background-size: 100%;
+		left: 8rem;
+		top: .3rem;
+	}
+}
+.tu{
+	.width(640);
+	.height(312);
+	img{
+		display: block;
+		.width();
+		.height(312);
+	}
+}
+.new{
+	.width();
+	padding: 0 .4rem;
+	box-sizing: border-box;
+	li{
+		height: 2rem;
+		.width(500);
+		line-height: 2rem;
+		padding-left: .35rem;
+		white-space:nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		border-top: .05rem solid #ebebeb;
+	}
+	li.no{border-top: none;}
+}
+.re{
+	.width();
+	.height(80);
+	border-top: .1rem solid #57c0af;
+	border-bottom: .05rem solid #e2e2e2;
+	background: #fafafa;
+	padding: 0 .75rem;
+	box-sizing: border-box;
+	overflow: hidden;
+	line-height: 2rem;
+	h4{
+		float: left;
+		.fontsize(28);
+		color: #020202;
+	}
+	i{
+		display: inline-block;
+		.width(58);
+		.height(58);
+		background: url(../images/guokr/r1.png);
+		background-size: 100%;
+		float: right;
+		margin-top: .2rem;
+	}
+}
+.content{
+	.width();
+	position: relative;
+	.top{
+		overflow: hidden;
+		border-bottom: .05rem solid #ececec;
+		li{
+			float: left;
+			.width(124);
+			.height(80);
+			text-align: center;
+			line-height: 2rem;
+		}
+	}
+	div.ac{
+		.width(124);
+		.height(4);
+		background: url(../images/guokr/ac.png);
+		background-size: 100%;
+		position: absolute;
+		left: 0; 
+		top:1.95rem;
+	}
+	div.tw{
+		.width();
+		padding: 0 .4rem;
+		box-sizing: border-box;
+		.one{
+			p{
+				line-height: 2rem;
+				.width(520);
+				white-space:nowrap;
+				overflow:hidden;
+				text-overflow:ellipsis;
+			}
+			img{
+				.width(208);
+				.height(148);
+				margin-bottom: -.5rem;
+			}
+			span{
+				display: inline-block;
+				margin-left: .5rem;
+				width: 7.3rem;
+				.fontsize(24);
+				color: #929196;
+				line-height: 1.25rem;
+			}
+		}
+	}
+}
+.fhdb{
+	.width();
+	.height(120);
+	background: #fafafa;
+	border-top: .05rem solid #e3e3e3;
+	border-bottom: .1rem solid #50cdab;
+	text-align: center;
+	line-height: 3rem;
+	position: relative;
+	i{
+		.width(58);
+		.height(58);
+		position: absolute;
+		left: 5rem;
+		top: .8rem;
+		background: url(../images/guokr/fh.png);
+		background-size: 100%;
+	}
+}
+footer{
+	.width();
+	.height(146);
+	background: #262626;
+	border-bottom: .05rem solid #2e2e2e;
+	line-height: 3rem;
+	.topyh2{
+		.width();
+		.height(146);
+		overflow: hidden;
+		position: relative;
+		i{.width(58);.height(46); display: block; float: left; margin: 1.5rem .6rem 0 1.45rem;}
+		a{color: #828186; float: left; margin-top: .6rem;}
+		.left{
+			float: left;
+			width: 50%;
+			overflow: hidden;
+			i{background: url(../images/guokr/pc.png); background-size: 100%;}
+		}
+		.right{
+			float: left;
+			width: 50%;
+			overflow: hidden;
+			i{background: url(../images/guokr/sj.png); background-size: 100%;}
+		}
+		.s{
+			position: absolute;
+			.width(2);
+			.height(76);
+			background: url(../images/guokr/s2.png);
+			background-size: 100%;
+			left: 8rem;
+			top: .8rem;
+		}
+	}
+}

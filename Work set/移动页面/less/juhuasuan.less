@@ -1,0 +1,286 @@
+@charset "tuf-8";
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+.width(@width:40){
+	width: @width/40rem;
+}
+.height(@height:40){
+	height: @height/40rem;
+}
+.fontsize(@fontsize:40){
+	font-size: @fontsize/40rem;
+}
+.marginbottom(@mb:40){
+	margin-bottom: @mb/40rem;
+}
+
+body{font-family: "黑体";}
+a{text-decoration: none; font-size: .65rem; color: #999;}
+header{
+	.width(640);
+	.height(100);
+	background: #f4f4f4;
+	position: relative;
+	a{
+		.width(122);
+		.height(58);
+		background: url(../images/juhuasuan/fh.png);
+		background-size: 100%;
+		position: absolute;
+		left: .6rem;
+		top: .55rem;
+	}
+	h1{
+		.fontsize(38);
+		font-weight: bold;
+		color: #d51938;
+		text-align: center;
+		line-height: 2.5rem;
+	};
+};
+.swiper-container{
+	.width(640);
+	.height(320);
+	.banner{
+		.width(640);
+		.height(267);
+		div{}
+		img{
+			.width(640);
+			.height(267);
+			display: block;
+		}
+	}
+	.swiper-pagination{
+		.marginbottom(-10);
+	}
+}
+.nav{
+	.width(640);
+	overflow: hidden;
+	li{
+		float: left;
+		text-align: center;
+		margin: .5rem 1rem;
+		position: relative;
+		.on{
+			.width(10);
+			.height(10);
+			display: inline-block;
+			background: url(../images/juhuasuan/dian.png);
+			background-size: 100%;
+			position: absolute;
+			left: 0rem;
+			top: 2.55rem;
+		}
+		i{
+			.width(80);
+			.height(80);
+			display: block;
+		}
+		i.i1{ background: url(../images/juhuasuan/sp.png); background-size: 100%;}
+		i.i2{ background: url(../images/juhuasuan/sh.png); background-size: 100%;}
+		i.i3{ background: url(../images/juhuasuan/pp.png); background-size: 100%;}
+		i.i4{ background: url(../images/juhuasuan/jbp.png); background-size: 100%;}
+		i.i5{ background: url(../images/juhuasuan/jmp.png); background-size: 100%;}
+		i.i6{ background: url(../images/juhuasuan/jjz.png); background-size: 100%;}
+		i.i7{ background: url(../images/juhuasuan/jt.png); background-size: 100%;}
+		i.i8{ background: url(../images/juhuasuan/khd.png); background-size: 100%;}
+	}
+}
+.remai{
+	.width(640);
+	padding: .5rem;
+	box-sizing: border-box;
+	.top{
+		.height(73);
+		line-height: 1.825rem;
+		border-bottom: .1rem solid #dcdcdc;
+		overflow: hidden;
+		.left{
+			float: left;
+			.width(4);
+			.height(30);
+			margin: .55rem .4rem 0 0;
+			background: url(../images/juhuasuan/s.png);
+			background-size: 100%;
+		}
+		h3{
+			float: left;
+			.fontsize(26);
+			color: #333;
+		}
+		.right{
+			float: right;
+			.fontsize(26);
+			color: #333;
+		}
+	}
+	.sp{
+		margin-top: .75rem;
+		li{
+			overflow: hidden;
+			.fontsize(24);
+			.width(600);
+			.height(120);
+			background: #f4f4f4;
+			margin-bottom: .5rem;
+			div{float: left;}
+			.red{background: #e00202;}
+			.red2{background: #ff4800;}
+			.red3{background: #ff7300;}
+			.red4{background: #ff9d00;}
+			.red5{background: #ffa800;}
+			.red6{background: #ffb400;}
+			.red7{background: #ffba00;}
+			.red8{background: #fcd000;}
+			.red9{background: #ffd719;}
+			.red10{background: #ffe152;}
+			.left{
+				.width(60);
+				.height(120);
+				.fontsize(36);
+				color: #fff;
+				text-align: center;
+				line-height: 3rem;
+			}
+			.shop{
+				.width(180);
+				.height(120);
+				img{
+					.width(180);
+					.height(120);
+				}
+			}
+			.ys{
+				margin-top: .75rem;
+				margin-left: .6rem;
+				.fontsize(24);
+				color: #999;
+				p{line-height: .75rem;}
+				.zi{color: #c7223d;}
+				.hua{text-decoration: line-through;}
+			}
+			.jq{
+				float: right;
+				margin-right: .5rem;
+				margin-top: 1.1rem;
+				b{color: #d51938;}
+
+			}
+			.right{
+				float: right;
+				margin-right: .5rem;
+				margin-top: 1.2rem;
+				.width(12);
+				.height(20);
+				background: url(../images/juhuasuan/jty.png);
+				background-size: 100%;
+			}
+		}
+	}
+	.gql{
+		.height(80);
+		background: #f5f5f5;
+		text-align: center;
+		line-height: 2rem;
+		.fontsize(26);
+		color: #666;
+		margin-bottom: .5rem;
+	}
+	div.g2{
+		margin: .5rem 0 .76rem 0;
+		position: relative;
+		a{
+			position: absolute;
+			background: url(../images/juhuasuan/jty.png);
+			background-size: 100%;
+			.width(12);
+			.height(20);
+			right: .5rem;
+			top: .8rem;
+		}
+	}
+	.spt{
+		overflow: hidden;
+		div{
+			float: left;
+			.width(150);
+			.height(352);
+		}
+		div.s1{background: url(../images/juhuasuan/spt.png); background-size: 100%;}
+		div.s2{background: url(../images/juhuasuan/sht.png); background-size: 100%;}
+		div.s3{background: url(../images/juhuasuan/ppt.png); background-size: 100%;}
+		.ul{
+			float: left;
+			overflow: hidden;
+			.fontsize(26);
+			color: #999;
+			// .width(451);
+			// background: yellow;
+			width: 11.25rem;
+			li{
+				// .width(148);
+				// .height(87);
+				width: 3.68rem;
+				height: 2.15rem;
+				float: left;
+				text-align: center;
+				line-height: 2.3rem;
+				border: .025rem solid #eee;
+			}
+			li.hz{color: #d51942;}
+			li.l{border-left: none;}
+			li.t{border-top: none;}
+		}
+	}
+	.bb{
+		.width(600);
+		.height(160);
+		margin-top: .25rem;
+		margin-bottom: .45rem;
+		overflow: hidden;
+		a{
+			float: left;
+			.width(200);
+			.height(160);
+		}
+		a.a1{background: url(../images/juhuasuan/iso.png); background-size: 100%;}
+		a.a2{background: url(../images/juhuasuan/az.png); background-size: 100%;}
+		a.a3{background: url(../images/juhuasuan/yj.png); background-size: 100%;}
+	}
+}
+.lasts{
+	.width(640);
+	.height(88);
+	background: #f8f8f8;
+	line-height: 2.2rem;
+	position: relative;
+	a{margin-left: .75rem; color: #333;}
+	a.top{
+		position: absolute;
+		right: .7rem;
+		top: .2rem;
+		background: url(../images/juhuasuan/top.png)center right no-repeat;
+		background-size: .475rem;
+		padding-right: 1rem;
+	}
+}
+footer{
+	.width(640);
+	.height(160);
+	text-align: center;
+	background: #eee;
+	padding-top: 1rem;
+	p{
+		line-height: 1rem;
+		a{
+			color: #333;
+			margin-left: .45rem;
+		}
+		span{
+			.fontsize(20);
+			color: #9f9f9f;
+		}
+	}
+}

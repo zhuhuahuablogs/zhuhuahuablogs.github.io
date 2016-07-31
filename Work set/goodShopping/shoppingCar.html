@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/shoppingCar.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/share.css">
+    <link rel="stylesheet" type="text/css" href="css/shoppingCar.css">
+</head>
+<body>
+<div class="top">
+    <div class="top_content">
+        <div class="top_l">
+            <ul>
+                <li>您好，欢迎光临好购商城！</li>
+                <li><a href="login.html" class="dl">登陆</a></li>
+                <li>|</li>
+                <li><a href="#" class="zc">注册</a></li>
+                <li><a href="#">我的订单</a></li>
+                <li><a href="#">收藏本站</a></li>
+            </ul>
+        </div>
+        <div class="top_r">
+            <ul>
+                <li class="wdhg">
+                    <a href="#">我的好购<img src="images/x.jpg"/></a>
+                    <ul class="wdhg_x">
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                    </ul>
+                </li>
+                <li class="wzdh">
+                    <a href="#">网站导航<img src="images/x.jpg"/></a>
+                    <ul class="wzdh_x">
+                        <li><a href="#">网站联盟</a></li>
+                    </ul>
+                </li>
+                <li class="bzzx">
+                    <a href="#">帮组中心<img src="images/x.jpg"/></a>
+                    <ul class="bzzx_x">
+                        <li><a href="#">购物指南</a></li>
+                        <li><a href="#">配送方式</a></li>
+                        <li><a href="#">支付方式</a></li>
+                        <li><a href="#">售后服务</a></li>
+                        <li><a href="#">投诉建议</a></li>
+                        <li><a href="#">在线客服</a></li>
+                    </ul>
+                </li>
+                <li class="wzgg">
+                    <a href="#">网站公告<img src="images/x.jpg"/></a>
+                    <ul class="wzgg_x">
+                        <li><a href="#">网站公告</a></li>
+                        <li><a href="#">重要提示</a></li>
+                        <li><a href="#">支付通知</a></li>
+                        <li><a href="#">会员公告</a></li>
+                    </ul>
+                </li>
+                <li class="phone"><a href="#">手机好购</a></li>
+                <li class="onlinetalk"><a href="#">在线客服</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="shoppingCarLogo">
+    <div class="ss">
+        <a href="#">购物车</a>
+        <div class="ss_r">
+            <div class="ssk">
+                <input type="text" name="sousuokuang" value="自营" class="ssk_l">
+                <input type="button" name="sousuo" value="搜索" class="ssk_r">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="cue">
+    <span></span>
+    您还没有登录！登录后购物车的商品将保存到您账号中
+    <a href="login.html">立即登录</a>
+</div>
+<div class="allGoods">
+    全部商品 <span>0</span>
+</div>
+<div class="cart-thead">
+    <div class="t-checkbox">
+        <input type="checkbox" class="all"/>&nbsp;全选
+    </div>
+    <div class="t-goods">
+        商品
+    </div>
+    <div class="t-price">
+        单价(元)
+    </div>
+    <div class="t-quantity">
+        数量
+    </div>
+    <div class="t-sum">
+        小计(元)
+    </div>
+    <div class="t-action">
+        操作
+    </div>
+</div>
+<div class="container">
+
+    <div class="allSth">
+
+    </div>
+  <!--      <div class="c_item">
+            <div class="c_item_ck"><input type="checkbox"/></div>
+            <div class="c_item_goods">
+                <img src="" alt=""/>
+                <div class="c_item_msg"></div>
+                <div class="c_item_col"></div>
+                <div class="c_item_size"></div>
+            </div>
+            <div class="c_item_price"></div>
+            <div class="c_item_count"></div>
+            <div class="c_item_sumCount"></div>
+            <div class="c_item_oper"></div>
+        </div>
+-->
+
+</div>
+    <div class="doSth">
+        <input type="checkbox" class="all"/>&nbsp;全选
+        <span class="del">删除选中的商品</span>
+        <span class="addCare">添加到我的关注</span>
+        <div class="toolbar-right">
+            <div class="btn-area">
+                <a href="#">去结算</a>
+            </div>
+            <div class="price-sum">总价(不含运费)：<span>￥00.00</span></div>
+            <div class="amount-sum">已选择 <span>0</span> 件商品</div>
+        </div>
+    </div>
+    <div class="c-tabs">
+        <div class="tab-nav">
+            <ul>
+                <li onmouseover="showYouBox(0)"><p>猜你喜欢</p></li>
+                <li onmouseover="showYouBox(1)"><p>我的关注</p></li>
+            </ul>
+        </div>
+        <div class="youBox">
+            <div class="g-list">
+                <a href="javasript:void(0)" class="g-list-left"></a>
+                <a href="javasript:void(0)" class="g-list-right"></a>
+                <div class="g-list-cont">
+                    <ul>
+                        <!--<li>
+                            <img src="images/545cd084N2550d56f.jpg" alt=""/>
+                            <a href="#">雅蓝悦家纺法莱绒超加厚立体床垫可折叠学生单双人被</a>
+                            <p>￥69.00</p>
+                            <button>加入购物车</button>
+                        </li>
+                        <li>
+                            <img src="images/545cd084N2550d56f.jpg" alt=""/>
+                            <a href="#">雅蓝悦家纺法莱绒超加厚立体床垫可折叠学生单双人被</a>
+                            <p>￥69.00</p>
+                            <button>加入购物车</button>
+                        </li>
+                        <li>
+                            <img src="images/545cd084N2550d56f.jpg" alt=""/>
+                            <a href="#">雅蓝悦家纺法莱绒超加厚立体床垫可折叠学生单双人被</a>
+                            <p>￥69.00</p>
+                            <button>加入购物车</button>
+                        </li>
+                        <li>
+                            <img src="images/545cd084N2550d56f.jpg" alt=""/>
+                            <a href="#">雅蓝悦家纺法莱绒超加厚立体床垫可折叠学生单双人被</a>
+                            <p>￥69.00</p>
+                            <button>加入购物车</button>
+                        </li>
+                        <li>
+                            <img src="images/545cd084N2550d56f.jpg" alt=""/>
+                            <a href="#">雅蓝悦家纺法莱绒超加厚立体床垫可折叠学生单双人被</a>
+                            <p>￥69.00</p>
+                            <button>加入购物车</button>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="myCare">
+            登陆后查看
+        </div>
+    </div>
+<div class="service">
+    <div class="slogen">
+        <div class="sc">
+            <span class="fore1"></span>
+            <span class="fore2"></span>
+            <span class="fore3"></span>
+            <span class="fore4"></span>
+        </div>
+    </div>
+    <div class="w">
+        <dl>
+            <dt>购物指南</dt>
+            <dd><a href="#">购物流</a>程</dd>
+            <dd><a href="#">会员介绍</a></dd>
+            <dd><a href="#">生活旅行/团购</a></dd>
+            <dd><a href="#">常见问题</a></dd>
+            <dd><a href="#">大家电</a></dd>
+            <dd><a href="#">联系客服</a></dd>
+        </dl>
+        <dl>
+            <dt>购物指南</dt>
+            <dd><a href="#">购物流</a>程</dd>
+            <dd><a href="#">会员介绍</a></dd>
+            <dd><a href="#">生活旅行/团购</a></dd>
+            <dd><a href="#">常见问题</a></dd>
+            <dd><a href="#">大家电</a></dd>
+            <dd><a href="#">联系客服</a></dd>
+        </dl>
+        <dl>
+            <dt>购物指南</dt>
+            <dd><a href="#">购物流</a>程</dd>
+            <dd><a href="#">会员介绍</a></dd>
+            <dd><a href="#">生活旅行/团购</a></dd>
+            <dd><a href="#">常见问题</a></dd>
+            <dd><a href="#">大家电</a></dd>
+            <dd><a href="#">联系客服</a></dd>
+        </dl>
+        <dl>
+            <dt>购物指南</dt>
+            <dd><a href="#">购物流</a>程</dd>
+            <dd><a href="#">会员介绍</a></dd>
+            <dd><a href="#">生活旅行/团购</a></dd>
+            <dd><a href="#">常见问题</a></dd>
+            <dd><a href="#">大家电</a></dd>
+            <dd><a href="#">联系客服</a></dd>
+        </dl>
+        <dl>
+            <dt>购物指南</dt>
+            <dd><a href="#">购物流</a>程</dd>
+            <dd><a href="#">会员介绍</a></dd>
+            <dd><a href="#">生活旅行/团购</a></dd>
+            <dd><a href="#">常见问题</a></dd>
+            <dd><a href="#">大家电</a></dd>
+            <dd><a href="#">联系客服</a></dd>
+        </dl>
+    </div>
+</div>
+<div class="bottom">
+    <a href="#">关于好购商城</a>|
+    <a href="#">我们的团队</a>|
+    <a href="#">频道首页</a>|
+    <a href="#">友情链接</a>|
+    <a href="#">热门搜索</a>|
+    <a href="#">隐私申明</a>|
+    <a href="#">团购优惠</a>|
+    <a href="#">投诉与建议</a>|
+    <a href="#">联系我们</a>
+    <p>Copyright © 2016 goodshopping.com All Rights Reserved</p>
+</div>
+</body>
+</html>

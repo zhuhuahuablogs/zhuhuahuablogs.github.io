@@ -1,0 +1,263 @@
+@charset "tuf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+body {
+  font-family: "黑体";
+}
+a {
+  text-decoration: none;
+  font-size: .7rem;
+  color: #333;
+}
+header {
+  width: 16rem;
+  height: 2.25rem;
+  background: #262626;
+  border-bottom: .1rem solid #4bccae;
+  text-align: center;
+  line-height: 2.25rem;
+  position: relative;
+}
+header a {
+  position: absolute;
+  width: 1.45rem;
+  height: 1.15rem;
+  top: .5rem;
+}
+header a.cd {
+  background: url(../images/guokr/cd.png);
+  background-size: 100%;
+  left: .4rem;
+}
+header h1 {
+  color: #fff;
+  font-size: 1rem;
+}
+header a.pc {
+  background: url(../images/guokr/pc.png);
+  background-size: 100%;
+  right: .4rem;
+}
+.topyh {
+  width: 16rem;
+  height: 2.05rem;
+  background: #fafafa;
+  overflow: hidden;
+  position: relative;
+}
+.topyh i {
+  width: 1.45rem;
+  height: 1.45rem;
+  display: block;
+  float: left;
+  margin: .3rem .6rem 0 1.45rem;
+}
+.topyh a {
+  color: #828186;
+  float: left;
+  margin-top: .6rem;
+}
+.topyh .left {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+}
+.topyh .left i {
+  background: url(../images/guokr/dl.png);
+  background-size: 100%;
+}
+.topyh .right {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+}
+.topyh .right i {
+  background: url(../images/guokr/zc.png);
+  background-size: 100%;
+}
+.topyh .s {
+  position: absolute;
+  width: 0.05rem;
+  height: 1.45rem;
+  background: url(../images/guokr/s.png);
+  background-size: 100%;
+  left: 8rem;
+  top: .3rem;
+}
+.tu {
+  width: 16rem;
+  height: 7.8rem;
+}
+.tu img {
+  display: block;
+  width: 16rem;
+  height: 7.8rem;
+}
+.new {
+  width: 16rem;
+  padding: 0 .4rem;
+  box-sizing: border-box;
+}
+.new li {
+  height: 2rem;
+  width: 12.5rem;
+  line-height: 2rem;
+  padding-left: .35rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-top: .05rem solid #ebebeb;
+}
+.new li.no {
+  border-top: none;
+}
+.re {
+  width: 16rem;
+  height: 2rem;
+  border-top: .1rem solid #57c0af;
+  border-bottom: .05rem solid #e2e2e2;
+  background: #fafafa;
+  padding: 0 .75rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  line-height: 2rem;
+}
+.re h4 {
+  float: left;
+  font-size: 0.7rem;
+  color: #020202;
+}
+.re i {
+  display: inline-block;
+  width: 1.45rem;
+  height: 1.45rem;
+  background: url(../images/guokr/r1.png);
+  background-size: 100%;
+  float: right;
+  margin-top: .2rem;
+}
+.content {
+  width: 16rem;
+  position: relative;
+}
+.content .top {
+  overflow: hidden;
+  border-bottom: .05rem solid #ececec;
+}
+.content .top li {
+  float: left;
+  width: 3.1rem;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.content div.ac {
+  width: 3.1rem;
+  height: 0.1rem;
+  background: url(../images/guokr/ac.png);
+  background-size: 100%;
+  position: absolute;
+  left: 0;
+  top: 1.95rem;
+}
+.content div.tw {
+  width: 16rem;
+  padding: 0 .4rem;
+  box-sizing: border-box;
+}
+.content div.tw .one p {
+  line-height: 2rem;
+  width: 13rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.content div.tw .one img {
+  width: 5.2rem;
+  height: 3.7rem;
+  margin-bottom: -0.5rem;
+}
+.content div.tw .one span {
+  display: inline-block;
+  margin-left: .5rem;
+  width: 7.3rem;
+  font-size: 0.6rem;
+  color: #929196;
+  line-height: 1.25rem;
+}
+.fhdb {
+  width: 16rem;
+  height: 3rem;
+  background: #fafafa;
+  border-top: .05rem solid #e3e3e3;
+  border-bottom: .1rem solid #50cdab;
+  text-align: center;
+  line-height: 3rem;
+  position: relative;
+}
+.fhdb i {
+  width: 1.45rem;
+  height: 1.45rem;
+  position: absolute;
+  left: 5rem;
+  top: .8rem;
+  background: url(../images/guokr/fh.png);
+  background-size: 100%;
+}
+footer {
+  width: 16rem;
+  height: 3.65rem;
+  background: #262626;
+  border-bottom: .05rem solid #2e2e2e;
+  line-height: 3rem;
+}
+footer .topyh2 {
+  width: 16rem;
+  height: 3.65rem;
+  overflow: hidden;
+  position: relative;
+}
+footer .topyh2 i {
+  width: 1.45rem;
+  height: 1.15rem;
+  display: block;
+  float: left;
+  margin: 1.5rem .6rem 0 1.45rem;
+}
+footer .topyh2 a {
+  color: #828186;
+  float: left;
+  margin-top: .6rem;
+}
+footer .topyh2 .left {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+}
+footer .topyh2 .left i {
+  background: url(../images/guokr/pc.png);
+  background-size: 100%;
+}
+footer .topyh2 .right {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+}
+footer .topyh2 .right i {
+  background: url(../images/guokr/sj.png);
+  background-size: 100%;
+}
+footer .topyh2 .s {
+  position: absolute;
+  width: 0.05rem;
+  height: 1.9rem;
+  background: url(../images/guokr/s2.png);
+  background-size: 100%;
+  left: 8rem;
+  top: .8rem;
+}

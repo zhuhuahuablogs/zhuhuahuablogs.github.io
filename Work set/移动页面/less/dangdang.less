@@ -1,0 +1,388 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+input{outline:none;}
+.width(@width:40){
+	width: @width/40rem;
+}
+.height(@height:40){
+	height: @height/40rem;
+}
+.fontsize(@fontsize:40){
+	font-size: @fontsize/40rem;
+}
+.marginbottom(@mb:40){
+	margin-bottom: @mb/40rem;
+}
+
+
+a{
+	text-decoration: none;
+	.fontsize(28);
+	color: #5d5d5d;
+}
+
+header{
+	.width(640);
+	.height(86);
+	background: #f0f0f0;
+	padding: .3rem ;
+	box-sizing: border-box;
+	overflow: hidden;
+	h1{
+		.fontsize(50);
+		color: #149b7b;
+		float: left;
+	}
+	a{
+		float: right;
+		margin-right: .55rem;
+		margin-top: .3rem;
+		.width(60);
+		.height(46);
+	}
+	a.dl{
+		background: url(../images/dangdang/dl.png);
+		background-size: 100%;
+	}
+	a.gwc{
+		background: url(../images/dangdang/gwc.png);
+		background-size: 100%;
+	}
+	a.cd{
+		background: url(../images/dangdang/cd.png);
+		background-size: 100%;
+	}
+}
+.banner{
+	.width(640);
+	.height(250);
+	.banner2{
+		.width(640);
+		.height(250);
+		img{
+			.width(640);
+			.height(250);
+		}
+	}
+	.swiper-pagination{margin-bottom: -.3rem;}
+}
+
+.top{
+	.width(640);
+	.height(594);
+	background: #f0f0f0;
+	box-sizing: border-box;
+	border-bottom: 0.05rem solid #fdebbb;
+	padding: .5rem;
+	.xz{
+		img{
+			.width(608);
+			.height(60);
+			display: block;
+			margin-left: -.15rem;
+			.marginbottom(20);
+		}
+	}
+	.search{
+		.width(600);
+		.height(80);
+		overflow: hidden;
+		.tex{
+			float: left;
+			.width(476);
+			.height(80);
+			.fontsize(24);
+			border: 0.05rem solid #ee952f;
+			padding-left: 1rem;
+			box-sizing: border-box;
+		}
+		.sea{
+			float: left;
+			.width(120);
+			.height(80);
+			background: url(../images/dangdang/sea.png);
+			background-size: 100%;
+		}
+	}
+	.nav{
+		overflow: hidden;
+		.width(439);
+		margin: 0.425rem auto;
+		li{
+			float: left;
+			.fontsize(26);
+			line-height: 1.775rem;
+			margin-right: .75rem;
+		}
+	}
+	.cd{
+		overflow: hidden;
+		margin-top: 1.1rem;
+		li{
+			float: left;
+			margin-right: .9rem;
+			.fontsize(22);
+			text-align: center;
+			i{
+				.width(120);
+				.height(120);
+				display: block;
+				margin-bottom: .2rem;
+			}
+			i.i1{
+				background: url(../images/dangdang/dd.png);
+				background-size: 100%;
+			}
+			i.i2{
+				background: url(../images/dangdang/yh.png);
+				background-size: 100%;
+			}
+			i.i3{
+				background: url(../images/dangdang/kf.png);
+				background-size: 100%;
+			}
+			i.i4{
+				background: url(../images/dangdang/ls.png);
+				background-size: 100%;
+			}
+		}
+		li.no{
+			margin-right: 0;
+		}
+	}
+}
+
+.sj{
+	.width(640);
+	.height(56);
+	background: #fe9600;
+	border-top: .05rem solid #df9331;
+	border-bottom: .05rem solid #df9331;
+	padding: 0 .5rem;
+	box-sizing: border-box;
+	line-height: 1rem;
+	position: relative;
+	span{
+		color: #e9fdf2;
+		.fontsize(26);
+	}
+	span.p2{.fontsize(22);}
+	a{
+		.width(14);
+		.height(23);
+		background: url(../images/dangdang/jt.png);
+		background-size: 100%;
+		position: absolute;
+		right: .5rem;
+		top: .4rem;
+	}
+}
+.shop1{
+	.width(640);
+	.height(510);
+	background: #f0f0f0;
+	padding-left: .4rem;
+	box-sizing: border-box;
+	overflow:hidden;
+	.sp{
+		.width(620);
+		.height(290);
+		margin: .5rem 0;
+		.fad{
+			overflow: hidden;
+			div{
+				.width(290);
+				.height(290);
+				float: left;
+				margin-right: .5rem;
+				img{
+					.width(290);
+					.height(290);
+				}
+			}
+		}
+	}
+	.hui,.bai{
+		.width(608);
+		.height(2);
+		background: #e5e5e5;
+	}
+	.bai{
+		background: #fbfbfb;
+	}
+	p{
+		line-height: 1.775rem;
+		.fontsize(28);
+		position: relative;
+		span{
+			position: absolute;
+			top: 0rem;
+			right: 1rem;
+			color: red;
+		}
+	}
+}
+.sj2{
+	background: #e50055;
+	a{background: url(../images/dangdang/jt2.png);background-size: 100%;}
+}
+.cp{
+	.width(640);
+	img{
+		display: block;
+		.width(640);
+		.height(280);
+	}
+}
+.bottom{
+	.width(640);
+	.height(616);
+	background: #f0f0f0;
+	padding: .5rem;
+	box-sizing: border-box;
+	.fz{
+		overflow: hidden;
+		margin-bottom: .5rem;
+		li{
+			float: left;
+			.width(186);
+			.height(58);
+			background: #fff;
+			text-align: center;
+			line-height: 1.2rem;
+		}
+		li.li1{
+			margin-right: .5rem;
+			margin-bottom: .5rem;
+		}
+		li.li2{
+			margin-bottom: .5rem;
+		}
+	}
+	.hui,.bai{
+		.width(608);
+		.height(2);
+		background: #e5e5e5;
+	}
+	.bai{
+		background: #fbfbfb;
+	}
+	p{
+		line-height: 1.775rem;
+		.fontsize(28);
+		position: relative;
+		span{
+			position: absolute;
+			top: 0rem;
+			right: 1rem;
+			color: #f7a130;
+		}
+	}
+	.cdl{
+		overflow: hidden;
+		margin-top: 1.5rem;
+		li{
+			float: left;
+			margin-right: .9rem;
+			.fontsize(22);
+			text-align: center;
+			i{
+				.width(120);
+				.height(120);
+				display: block;
+				margin-bottom: .2rem;
+			}
+			a{.fontsize(22);}
+			i.i1{
+				background: url(../images/dangdang/cz.png);
+				background-size: 100%;
+			}
+			i.i2{
+				background: url(../images/dangdang/yb.png);
+				background-size: 100%;
+			}
+			i.i3{
+				background: url(../images/dangdang/ddk.png);
+				background-size: 100%;
+			}
+			i.i4{
+				background: url(../images/dangdang/ds.png);
+				background-size: 100%;
+			}
+		}
+		li.no{
+			margin-right: 0;
+		}
+	}
+}
+.last{
+	.width(640);
+	.height(268);
+	background: #e0e0e0;
+	padding: .5rem;
+	box-sizing: border-box;
+	.search{
+		.width(600);
+		.height(80);
+		overflow: hidden;
+		margin-bottom: .3rem;
+		.tex{
+			float: left;
+			.width(476);
+			.height(80);
+			.fontsize(24);
+			border: 0.05rem solid #adadad;
+			padding-left: 1rem;
+			box-sizing: border-box;
+		}
+		.sea{
+			float: left;
+			.width(120);
+			.height(80);
+			background: url(../images/dangdang/sea2.png);
+			background-size: 100%;
+		}
+	}
+	p{
+		text-align: center;
+		line-height: 1.65rem;
+		a{
+			.width(130);
+			.height(44);
+			display: inline-block;
+			line-height: 1.4rem;
+		}
+		a.ac{border-bottom: .1rem solid #ee9d27;}
+	}
+}
+.zhuce{
+	.width(640);
+	.height(60);
+	background: #b0b0b0;
+	line-height: 1.3rem;
+	position: relative;
+	a{
+		color: #fff;
+		margin-left: .8rem;
+	}
+	i{
+		position: absolute;
+		.width(81);
+		.height(23);
+		background: url(../images/dangdang/top.png);
+		background-size: 100%;
+		top: .5rem;
+		right: .6rem;
+	}
+}
+footer{
+	.width(640);
+	.height(80);
+	background: #e0e0e0;
+	p{
+		.fontsize(22);
+		color: #8f8f8f;
+		line-height: 2rem;
+	}
+}

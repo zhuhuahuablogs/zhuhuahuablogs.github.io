@@ -1,0 +1,271 @@
+@charset "utf-8";
+*{
+	margin: 0; 
+	padding: 0;
+	font-family: "黑体";
+};
+li{
+	list-style: none;
+};
+.widthrem(@width:3rem){
+	width: @width;
+};
+.heightrem(@height:3rem){
+	height: @height;
+};
+
+.chuwidth(@width:1rem){
+	width: @width/40;
+};
+.chuheight(@height:1rem){
+	height: @height/40;
+};
+.chumargin(@bottom:1rem){
+	margin-bottom: @bottom/40;
+};
+.fz(@bottom:1rem){
+	font-size: @bottom/40;
+};
+
+header{
+	height: 3rem; 
+	background: #344a61;
+	display:-webkit-box;
+	h1{
+		-webkit-box-flex:1;
+		color: #f8ffff;
+		text-align: center;
+		line-height: 3rem;
+		font-size: 1.2rem;
+	};
+	.left{
+		.widthrem;
+		.heightrem;
+		background: url(../images/nav.png) center no-repeat;
+		border-right: 2px solid #4a6077;
+		background-size: 1rem;
+	};
+	.right{
+		.widthrem;
+		.heightrem;
+		background: url(../images/email.png) center no-repeat;
+		border-left: 2px solid #4a6077;
+		background-size: 1rem;
+	};
+};
+.bk{
+	.heightrem(.1rem);
+	border-top: .05rem solid #f3fdff;
+	border-bottom: .05rem solid #f9f9f7;
+};
+.conter{
+	.heightrem(71.5rem);
+	.widthrem(14rem);
+	margin: 0 auto;
+	.top{
+		.heightrem(2rem);
+		line-height: 2rem;
+		font-size: .8rem;
+		color: #c5c5c5;
+		border-bottom: .1rem solid #e5e5e5;
+		margin-bottom: 1rem;
+	};
+	.shop{
+		.widthrem(14rem);
+		.heightrem(9.3rem);
+		.chumargin(50rem);
+		img{
+			.widthrem(14rem);
+			.heightrem(9.3rem);
+			display: block;
+		};
+	};
+	h3.h3{
+		.chumargin(40rem);
+		.fz(22rem); 
+		color: #1f1f1f;
+		.chumargin(30rem);
+	};
+	.new{
+		line-height: 1rem;
+		.fz(18rem);
+		color: #505050;
+		.chumargin(40rem);
+	};
+	.shop2{
+		.widthrem(14rem);
+		.chuheight(440rem);
+		border-top: .05rem solid #e7e7e7;
+		border-bottom: .05rem solid #e7e7e7;
+		overflow: hidden;
+		.chumargin(48rem);
+		.left{
+			.chuwidth(198rem);
+			.chuheight(440rem);
+			float: left;
+			div{
+				.chuwidth(160rem);
+				.chuheight(160rem);
+				margin-top: 1rem;
+				img{
+					.chuwidth(160rem);
+					.chuheight(160rem);
+					display: block;
+				}
+			}
+		};
+		.right{
+			float: right;
+			.widthrem(9rem);
+			padding-top: 1rem;
+			h4{
+				.fz(22rem); 
+				color: #1f1f1f;
+				margin: .1rem 0;
+			}
+			p{
+				line-height: 1rem;
+				.fz(18rem);
+				color: #505050;
+			};
+		}
+	};
+	.shop3{
+		.widthrem(14rem);
+		.chumargin(60rem);
+		h3{
+			.fz(22rem); 
+			color: #1f1f1f;
+		};
+		p{
+			line-height: 1rem;
+			.fz(18rem);
+			color: #505050;
+		};
+		section{overflow: hidden;}
+		div{
+			float: left;
+			margin: 1rem 1rem 0 0;
+			.chuwidth(160rem);
+			.chuheight(160rem);
+			img{
+				.chuwidth(160rem);
+				.chuheight(160rem);
+				display: block;
+			}
+		};
+		div.xiao{
+			.chuwidth(158rem);
+			.chuheight(160rem);
+			img{
+				.chuwidth(158rem);
+				.chuheight(160rem);
+				display: block;
+			};
+		};
+		div.no{
+			margin-right: 0;
+		};
+	};
+	.message{
+		.chuwidth(560rem);
+		.chuheight(460rem);
+		.chumargin(40rem);
+		border-top: .05rem solid #e7e7e7;
+		border-bottom: .05rem solid #e7e7e7; 
+		h3{
+			.chumargin(26rem);
+			.fz(22rem); 
+			color: #1f1f1f;
+			margin-top: 1rem;
+		};
+		p{
+			line-height: 1rem;
+			.fz(18rem);
+			color: #505050;
+			.chumargin(40rem);
+		};
+		.m2{
+			.chuwidth(560rem);
+			.chuheight(460rem);
+			box-sizing: border-box;
+			background: url(../images/message.png) no-repeat;
+			background-size: 4rem;
+			padding-left: 5rem;
+			p{
+				line-height: 1rem;
+				.fz(18rem);
+				color: #505050;
+			};
+			p.b{
+				font-weight: bold;
+				color: #585858;
+				text-align: right;
+			};
+		};
+	};
+	.bottom1{
+		.chuwidth(560rem);
+		.chuheight(310rem);
+		h3{
+			.chumargin(26rem);
+			.fz(22rem); 
+			color: #1f1f1f;
+			text-align: center;
+		};
+		p{
+			line-height: 1rem;
+			.fz(18rem);
+			color: #505050;
+			text-align: center;
+		};
+		.tu{
+			.chuwidth(388rem);
+			.chuheight(100rem);
+			margin: 1rem auto;
+			img{
+				.chuwidth(100rem);
+				.chuheight(100rem);
+				margin-left: .4rem;
+			};
+		};
+	};
+	.bottom2{
+		.chuwidth(560rem);
+		.chuheight(160rem);
+		border-top: .05rem solid #e7e7e7;
+		padding-top: 1.1rem;
+		box-sizing: border-box;
+		p{
+			line-height: 1rem;
+			.fz(16rem);
+			color: #9e9e9e;
+			text-align: center;
+			font-weight: bold;
+		};
+	};
+};
+footer{
+	.chuheight(120rem);
+	background: #000;
+	.fot{
+		.chuheight(40rem);
+		padding-top: .5rem;
+		img{
+			.chuwidth(40rem);
+			.chuheight(40rem);
+			display: inline-block;
+			box-sizing: border-box;
+			margin-right: .5rem;
+		};
+		img.f1{
+			margin-left: .5rem;
+		}
+	};
+	p{
+		text-align: center;
+		.fz(14rem);
+		color: #7a7a7a;
+		margin-top: .3rem;
+	}
+};
